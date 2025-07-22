@@ -1,0 +1,511 @@
+.bloque-taxonomy-gama{
+
+	&.taxonomy-gama-cabecera{
+		height: 100vh;
+		overflow: hidden;
+		position: relative;
+		
+		.row{
+			height: 100%;
+			position: relative;
+
+			.izq{
+				display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    margin-top: auto;
+			    background-color: #FFF;
+			    padding: 30px 10px;
+
+			    .inner{
+
+			    	.logo-principal{
+			    		text-align: center;
+			    		margin-bottom: 30px;
+			    	}
+
+			    	.claim{
+			    		text-align: center;
+					    font-size: 50px;
+					    line-height: 1.2;
+					    font-weight: 200;
+					    margin-bottom: 30px;
+
+			    		p{
+			    			margin: 0;
+			    		}
+			    	}
+
+			    	.boton-cupa-granate{
+			    		text-align: center;
+	    				padding-top: 15px;
+			    	}
+			    }
+			}
+
+			.superpuesta{
+				display: none;
+				position: absolute;
+			    width: 62.5%;
+			    height: 100%;
+			    right: 0;
+			    top: 0;
+			    cursor: auto;
+			    transition: all 0.4s ease;
+
+			    &:hover{
+			    	cursor: url(../images/play-gama.png) 50 50, auto;
+
+			    	&:before{
+			    		display: none;
+			    	}
+			    }
+
+			    &:before{
+			    	content: "";
+			    	width: 100px;
+			    	height: 100px;
+			    	background-image: url(../images/play-gama.png);
+			    	background-position: center;
+			    	background-repeat: no-repeat;
+			    	background-size: cover;
+			    	top: 50%;
+			    	left: 50%;
+			    	transform: translate(-50%, -50%);
+			    	position: relative;
+			    	display: block;
+			    	transition: all 0.4s ease;
+			    }
+			}		
+		}
+
+		.imagen-estatica{
+			background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+			position: absolute;
+		    width: 62.5%;
+		    top: 0;
+		    right: 0;
+		    height: 100%;
+		    z-index: -1;
+		}
+
+		#myModal{
+			.modal-content{
+				background-color: transparent;
+	    		box-shadow: unset;
+	    		#myVideo{
+	    			max-height: 450px;
+	    		}
+			}
+		}
+
+		#button-play{
+			display: none !important;
+		}
+	}
+
+
+
+	&.taxonomy-gama-texto-medio{
+		padding: 100px 0;
+
+		.container-custom{
+			background-position: center right;
+			background-repeat: no-repeat;
+			background-size: 250px;
+
+			.texto-medio{
+				max-width: 1100px;
+			    margin: 0 auto;
+			    line-height: 1.4;
+			    font-size: 1.8rem;
+			    
+				p{
+					margin: 0;
+				}
+			}
+		}
+	}
+
+
+
+	&.taxonomy-gama-texto-superpuesto-foto{
+		height: 75vh;
+		padding: 30px 0;
+
+		.container-custom{
+			height: 100%;
+			background-position: center right;
+		    background-repeat: no-repeat;
+		    background-size: 70%;
+
+			.div-flotante{
+				max-width: 45%;
+			    padding: 40px;
+			    background-color: rgba(112, 112, 112, 0.8);
+			    position: relative;
+			    top: 40px;
+			    box-shadow: 0px 5px 15px 0px #b1b1b1;
+			    transition: all 0.4s ease;
+
+			    &:hover{
+			    	box-shadow: 0px 10px 20px 0px #b1b1b1;
+			    }
+
+				.titulo{
+					color: #FFF;
+				    font-size: 36px;
+				    font-weight: 500;
+				    margin-bottom: 20px;
+				}
+
+				.descripcion{
+					color: #FFF;
+				    font-size: 24px;
+				    font-weight: 400;
+					p{
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+
+
+	&.taxonomy-gama-texto-medio-2{
+		padding: 50px 0;
+		.container-custom{
+			.izq{
+				.titulo{
+					font-size: 2.2rem;
+				    font-weight: 500;
+				    line-height: 1.3;
+				}
+			}
+			.der{
+				.descripcion{
+					font-size: 20px;
+    				font-weight: 400;
+					p{
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+
+
+
+	&.taxonomy-gama-productos{
+		padding: 60px 0;
+		.container-custom{
+			.posts{
+				margin: 0;
+				div[class^=producto-]{
+					margin-bottom: 0;
+				}
+				.producto-last{
+					display: flex;
+				    align-items: center;
+				    justify-content: center;
+				}
+			}
+		}
+	}
+
+
+
+	&.taxonomy-gama-ventajas{
+		min-height: 50vh;
+		margin: 30px 0;
+
+		.row-sup{
+			margin-bottom: 50px !important;
+
+			.titulo-sup{
+				font-size: 44px;
+			    font-weight: 500;
+			    line-height: 1.3;
+			}
+
+			.col-descripcion{
+				display: flex;
+			    align-items: center;
+			    justify-content: flex-start;
+
+			    .descripcion{
+					font-size: 20px;
+	    			font-weight: 400;
+				}
+			}	
+		}
+
+		.container-ventajas{
+			display: flex;
+    		flex-wrap: wrap;
+
+    		.ventaja{
+    			flex: 0 0 20%;
+    			display: flex;
+    			align-items: flex-start;
+    			justify-content: center;
+    			margin-bottom: 30px;
+
+    			.inner-ventaja{
+
+    				.imagen{
+    					border-left: 6px solid #393937d1;
+    					margin-bottom: 20px;
+    				}
+
+    				.titulo{
+    					overflow-wrap: break-word;
+    					text-transform: uppercase;
+    					font-weight: 600;
+    					width: 200px;
+    				}
+    			}
+    		}
+		}
+	}
+
+
+
+	&.taxonomy-gama-video{
+		.container-custom{
+			.video{
+				padding: 80px;
+				video{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+
+
+	&.taxonomy-gama-galeria{
+		
+		> .titulo{
+			font-size: 44px;
+		    font-weight: 500;
+		    line-height: 1.3;
+		    text-align: center;
+		    margin-bottom: 40px;
+		}
+		.container-imagenes{
+			height: 60vh;
+			display: flex;
+			flex-wrap: nowrap;
+			overflow: scroll;
+	    	overflow-x: hidden;
+	    	overflow-y: hidden;
+
+			div[class^=imagen-]{
+				flex: 0 0 auto;
+				display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    height: 60vh;
+			    overflow: hidden;
+			    cursor: url(../images/drag.png) 25 21, auto;
+
+				&.pointer-events-none{
+					pointer-events: none;
+				}
+
+				img{}
+
+				.overlay{					
+				    width: 100%;
+				    height: 100%;
+				    position: absolute;
+				    /*background-color: #000;*/
+				    /*opacity: 0.2;*/
+				}
+			}
+		}
+	}
+
+
+
+
+
+}
+
+
+
+
+@media(max-width:1200px){
+	.bloque-taxonomy-gama{
+		&.taxonomy-gama-cabecera{
+			.row .izq .inner .claim{
+				font-size: 36px;
+			}
+		}
+		&.taxonomy-gama-texto-superpuesto-foto {
+			height: auto;
+			.container-custom{
+				display: flex;
+			    align-items: flex-end;
+			    justify-content: center;
+				background-size: 100%;
+				.div-flotante{
+					max-width: 90%;
+					top: unset;
+					bottom: 30px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:1024px){
+	.bloque-taxonomy-gama{
+		&.taxonomy-gama-texto-medio{
+			.container-custom .texto-medio{
+				font-size: 1.4rem;
+			}
+		}
+		&.taxonomy-gama-texto-superpuesto-foto{
+			.container-custom{
+				/*background-size: contain;*/
+				.div-flotante{
+					.titulo{
+						font-size: 30px;
+					}
+					.descripcion{
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		&.taxonomy-gama-ventajas{
+			.container-ventajas .ventaja{
+				flex: 0 0 33%;
+			}
+		}
+	}
+}
+
+@media(max-width:768px){
+	.bloque-taxonomy-gama {
+		&.taxonomy-gama-cabecera{
+			height: 120vh;
+			.row {
+				.izq{
+					-ms-flex: 0 0 100%;
+				    flex: 0 0 100%;
+				    max-width: 100%;
+				    margin-top: 50px;
+				    margin-bottom: auto;
+				    height: 60vh;
+				    padding-top: 60px;
+				}
+				.superpuesta{
+					width: 100%;
+				    height: 60vh;
+				    top: unset;
+				    bottom: 0;
+				}
+			}
+			.imagen-estatica{
+				width: 100%;
+			    height: 60vh;
+			    top: unset;
+			    bottom: 0;
+			}
+		}
+		&.taxonomy-gama-texto-superpuesto-foto{
+			.container-custom{
+				.div-flotante{
+					max-width: 75%;
+					top: 20px;
+				}
+			}
+		}
+		&.taxonomy-gama-texto-medio-2 {
+			.container-custom .izq .titulo{
+				margin-bottom: 20px;
+			}
+		}
+		&.taxonomy-gama-productos {
+			.container-custom .posts {
+				div[class^=producto-]{
+					margin-bottom: 50px;
+				}
+				.producto-last{
+					max-height: 250px;
+				}
+			}
+		}
+		&.taxonomy-gama-video{
+			.container-custom{
+				.video{
+					padding: 30px;
+				}
+			}
+		}
+		&.taxonomy-gama-ventajas{
+			.container-ventajas .ventaja{
+				flex: 0 0 50%;
+			}
+		}
+	}
+}
+
+@media(max-width:660px){
+	.bloque-taxonomy-gama{
+		&.taxonomy-gama-texto-medio{
+			.container-custom .texto-medio{
+				font-size: 1.4rem;
+			}
+		}
+		&.taxonomy-gama-texto-superpuesto-foto{
+			margin-top: 100px;
+			.container-custom{
+				background-size: unset;
+				.div-flotante{
+					max-width: 100%;
+					top: -100px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:480px){
+	.bloque-taxonomy-gama {
+		&.taxonomy-gama-cabecera{
+			.row {
+				.izq{
+					margin-top: 80px;
+					padding-top: 40px;
+					.inner{
+						.claim{
+							font-size: 30px;
+						}
+					}
+				}
+				.superpuesta:before{
+					top: 60%;
+				}
+			}
+		}
+		&.taxonomy-gama-video{
+			.container-custom{
+				.video{
+					padding: 0px;
+				}
+			}
+		}
+		&.taxonomy-gama-ventajas{
+			.container-ventajas .ventaja{
+				flex: 0 0 100%;
+			}
+		}
+	}
+}

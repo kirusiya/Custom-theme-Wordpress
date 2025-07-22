@@ -1,0 +1,77 @@
+.bloque-faqs{
+	margin-top: 20px;
+
+	.no-faqs{
+		display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    padding: 40px 0;
+	}
+
+	.container-custom{
+
+		div[class^=grupo-]{
+			max-width: 1024px;
+		    margin: 0 auto;
+		    padding: 10px;
+		    margin-bottom: 30px;
+
+			.categoria-faq{
+				font-size: 24px;
+			    font-weight: bold;
+			    text-transform: uppercase;
+			    margin-bottom: 10px;
+			}
+
+			div[class^=faq-]{
+				padding: 10px 5px;			    
+			    padding-bottom: 5px;
+			    margin-bottom: 10px;
+			    position: relative;
+
+			    .titulo{
+			    	border-bottom: 1px solid #6f1d46;
+			    	cursor: pointer;
+    				padding-bottom: 5px;
+    				font-weight: 400;
+    				font-size: 18px;
+    				padding-right: 35px;
+
+			    	&:after{
+				    	content: "";
+					    position: absolute;
+					    right: 10px;
+					    top: 10px;
+					    width: 24px;
+					    height: 24px;
+					    background-image: url(../images/arrow-down.png);
+					    background-size: 100%;
+					    display: inline-block;
+					    transition: all ease .3s;
+				    }
+
+				    &.active:after{
+				    	transform: rotate(180deg);
+				    }
+			    }
+
+				.panel{
+					padding: 0 18px;
+					padding-top: 10px;
+					background-color: white;
+					max-height: 0;
+					overflow: hidden;
+					transition: max-height 0.2s ease-out;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:768px){
+	.bloque-faqs {		
+		.container-custom div[class^=grupo-] {
+	        padding: 10px 0;
+	    }
+	}
+}

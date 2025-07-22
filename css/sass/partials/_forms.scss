@@ -1,0 +1,612 @@
+.form-group textarea.form-control{
+  height:80px;
+}
+
+.form-group.is-focused .form-control {
+  outline: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from($mainColor), to($mainColor)), -webkit-gradient(linear, left top, left bottom, from($mainColor), to($mainColor));
+  background-image: -webkit-linear-gradient($mainColor, $mainColor), -webkit-linear-gradient($mainColor, $mainColor);
+  background-image: -o-linear-gradient($mainColor, $mainColor), -o-linear-gradient($mainColor, $mainColor);
+  background-image: linear-gradient($mainColor, $mainColor), linear-gradient($mainColor, $mainColor);
+
+}
+body .form-group{
+  margin: 0;
+}
+
+.form-group.is-focused label, .form-group.is-focused label.control-label {
+  color: $mainColor;
+}
+.form-group.label-floating label.control-labe{
+  font-size:14px;
+}
+
+body .form-group.label-static label.control-label,
+body .form-group.label-floating.is-focused label.control-label,
+body .form-group.label-floating:not(.is-empty) label.control-label{
+  top:-22px;
+}
+.form-group .form-control{
+  margin:0;
+}
+
+/*Busqueda*/
+
+.search-form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  label{
+    margin:0;
+    top: 1.2rem;
+  }
+  .btn{
+    padding: 10px 20px;
+    margin: 0px 0px 1rem 0px;
+  }
+}
+
+/* Material plugin forms*/
+body #cf7md-form .mdc-text-field .mdc-floating-label{
+  left:0;
+  margin-left:0;
+  padding-left:0;
+}
+body #cf7md-form .mdc-textfield__label{
+  bottom:10px;
+}
+#cf7md-form{
+  color:$texto;
+  span, p, strong, div{
+    color:$texto;
+  }
+}
+#cf7md-form label,
+#cf7md-form .mdc-textfield__label,
+#cf7md-form input, #cf7md-form textarea, #cf7md-form select, #cf7md-form .wpcf7-list-item label, #cf7md-form .cf7md-accept-label{
+  color:$texto;
+  left:0px;
+
+}
+#cf7md-form label, #cf7md-form .cf7md-label--static, #cf7md-form .cf7md-help-text{
+  color:$texto;
+}
+#cf7md-form .mdc-textfield--focused .mdc-textfield__label {
+  color:$mainColor;
+  text-transform:uppercase;
+  transform: translateY(-25px) scale(0.75, 0.75);
+}
+#cf7md-form .mdc-textfield__label--float-above {
+  transform: translateY(-25px) scale(0.75, 0.75);
+  text-transform:uppercase;
+  color:$texto
+}
+#cf7md-form .mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline)::after{
+  background-color: $texto;
+}
+#cf7md-form .mdc-textfield--focused.mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline)::after, #cf7md-form .mdc-multi-select:focus .mdc-list-item:checked, #cf7md-form .mdc-checkbox__background::before, #cf7md-form .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background, #cf7md-form .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background, #cf7md-form .mdc-radio__background::before, #cf7md-form .mdc-radio__native-control:checked + .mdc-radio__background .mdc-radio__inner-circle, #cf7md-form .mdc-button--primary.mdc-button--raised, #cf7md-form .mdc-switch__native-control:checked ~ .mdc-switch__background::before, #cf7md-form .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob, #cf7md-form .mdc-switch__native-control:checked ~ .mdc-switch__background .mdc-switch__knob::before {
+  background-color: $mainColor;
+}
+
+#cf7md-form .mdc-textfield--multiline .mdc-textfield__input,
+#cf7md-form .mdc-textfield--multiline .mdc-textfield__input:invalid:not(:focus){
+  border:none;
+  border-bottom: 1px solid $texto;
+  background-color:#fff;
+  padding:0 0px;
+}
+
+form a{
+  text-decoration: underline;
+}
+#cf7md-form .mdc-textfield--multiline .mdc-textfield__input:focus, #cf7md-form .mdc-textfield:not(.mdc-textfield--upgraded) .mdc-textfield__input:focus, #cf7md-form .mdc-checkbox__native-control:checked ~ .mdc-checkbox__background, #cf7md-form .mdc-checkbox__native-control:indeterminate ~ .mdc-checkbox__background, #cf7md-form .mdc-radio__native-control:checked + .mdc-radio__background .mdc-radio__outer-circle{
+  border-color: $mainColor;
+}
+.cf7md-accept{
+  >span{
+    display:inline;
+  }
+}
+#cf7md-form .mdc-textfield--invalid:not(.mdc-textfield--focused) .mdc-textfield__label{
+  color:$texto;
+  left:0px;
+}
+body #cf7md-form .cf7md-accept .wpcf7-form-control-wrap{
+  display:inline;
+}
+body #cf7md-form .mdc-checkbox__background{
+  border:2px solid $texto
+}
+body #cf7md-form .cf7md-accept .wpcf7-form-control-wrap{
+  display:flex;
+  align-items: center;
+  >span{
+    display:none;
+  }
+}
+#cf7md-form .cf7md-item{
+  margin-bottom:10px;
+}
+body #cf7md-form .cf7md-item select,
+body #cf7md-form .cf7md-item input,
+body #cf7md-form .cf7md-item textarea{
+  color:$texto;
+  background-color:#f7f7f7!important;
+  padding: 4px 0px!important;
+}
+body #cf7md-form .mdc-textfield--upgraded:not(.mdc-textfield--fullwidth):not(.mdc-textfield--multiline) {
+  height: 57px;
+}
+body #cf7md-form button.mdc-button--primary.mdc-button--raised{
+  width: 100%;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 15px 25px;
+  height: auto;
+  line-height: 1em;
+  font-weight: 800;
+  font-family:$tipo_sec;
+}
+#cf7md-form .cf7md-item.cf7md-file{
+  margin:10px 0;
+}
+.cf7md-file--label{
+  cursor:pointer;
+}
+body  #cf7md-form .mdc-button--raised:disabled {
+  opacity:.7;
+  cursor:not-allowed;
+  box-shadow:none;
+
+}
+body  #cf7md-form{
+  .waves-input-wrapper{
+    margin-top:0px;
+    clear:both;
+    width: 100%;
+    .waves-ripple{
+      display:none!important;
+    }
+  }
+
+}
+#cf7md-form .mdc-form-field > label{
+  color:$texto;
+}
+#cf7md-form .mdc-button--raised.mdc-ripple-upgraded.mdc-button--primary::before,
+#cf7md-form .mdc-button--raised.mdc-ripple-upgraded.mdc-button--primary:after{
+  display:none;
+}
+body #cf7md-form .cf7md-select select{
+  height: 40px!important;
+}
+
+body #cf7md-form .mdc-select option {
+  color: black;
+  background-color: #fff;
+  max-width:159px;
+}
+
+body #cf7md-form.cf7md-form + .wpcf7-response-output{
+  margin-bottom: 20px;
+  border: 1px solid;
+  border-radius: 4px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  padding:15px;
+  font-size:$font_size;
+  margin-top:10px;
+}
+body #cf7md-form.cf7md-form + .wpcf7-mail-sent-ok{
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+body div.wpcf7{
+  margin:0 auto;
+}
+body {
+
+  #cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined):not(.mdc-text-field--textarea) .mdc-text-field__input {
+    height: auto;
+
+  }
+  #cf7md-form .mdc-text-field--textarea{
+    overflow:visible;
+    .mdc-floating-label{
+      height: 40px;
+      bottom: 50px!important;
+      top: inherit;
+      background-color:transparent!important;
+
+      &.active{
+        bottom: 63px!important;
+      }
+    }
+    .mdc-text-field__input{
+      padding:5px 15px!important;
+      height:80px!important;
+
+    }
+  }
+  #cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--textarea) {
+    background-color:transparent;
+
+
+  }
+  #cf7md-form .mdc-text--field{
+    height: auto;
+    border:none!important;
+  }
+  #cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined) .mdc-text-field__input{
+    color:$texto;
+    border-bottom:solid 1px;
+
+  }
+  body #cf7md-form .mdc-text-field:not(.mdc-text-field--disabled):not(.mdc-text-field--outlined) textarea.mdc-text-field__input{
+    height:80px!important;
+    border-bottom:solid 1px;
+  }
+  #cf7md-form .mdc-text-field--textarea:not(.mdc-text-field--disabled){
+    border:none;
+    margin-top:25px;
+  }
+  #cf7md-form .mdc-line-ripple{
+    display:none!important;
+  }
+  #cf7md-form .mdc-text-field.mdc-ripple-upgraded::before{
+    display:none;
+  }
+  #cf7md-form .mdc-text-field--textarea::before, #cf7md-form .mdc-text-field--textarea::after,
+  #cf7md-form .mdc-text-field--invalid:not(.mdc-text-field--disabled) .mdc-line-ripple{
+    display:none;
+  }
+  #cf7md-form .mdc-text-field .mdc-floating-label{
+    bottom:10px;
+  }
+  #cf7md-form .mdc-text-field .mdc-floating-label.active {
+    bottom:29px;
+  }
+  #cf7md-form .mdc-button--raised.mdc-ripple-upgraded.wpcf7-submit{
+    background-color: $mainColor;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding:12px 30px;
+    line-height:1em;
+    height:auto;
+    max-height:inherit;
+    box-shadow:none;
+
+    &:hover {
+      background-color: $mainColor;
+      box-shadow: 4px 6px 13px rgba(0, 0, 0, 0.3);
+    }
+  }
+  #cf7md-form .cf7md-file--label .mdc-button--raised:not(:disabled) {
+    background-color:transparent;
+    color: $mainColor;
+    border:solid 2px  $mainColor;
+    border-radius:30px;
+  }
+  #cf7md-form .mdc-layout-grid__inner{
+    display:block;
+  }
+}
+.cf7md-accept--inner{
+  margin:10px 0;
+  clear:both;
+}
+
+
+
+
+
+
+/* custom */
+
+.wpcf7-response-output{
+  text-align: center;
+  font-weight: 500;
+  color: $mainColor;
+}
+
+.form-cupa{
+  transition: all 0.4s ease;
+
+  .cabecera-form{
+    font-size: 1.5rem;
+  }
+  
+  label{
+    width: 100%;
+
+    &.hide{
+      display: none;
+    }
+
+    &.txt-legal{
+      font-size: 10px;
+      margin-top: 15px;
+      margin-bottom: 0;
+
+      input[type=checkbox]{
+        position: relative;
+        top: 2px;
+      }
+    }
+
+    .your-consent{
+      .wpcf7-list-item{
+        margin: 0;
+
+        > label{
+          margin: 10px 0;
+        }
+      }
+    }
+
+    &.lbl-select{
+      width: 100%;
+      margin: 0px;
+    }
+
+    select{
+      width: 100%;
+      padding: 10px;
+      padding-left: 0;      
+      background-color: transparent;
+      font-family: 'Montserrat', sans-serif;
+      border: none;
+      border-bottom: 1px solid #bdbdbd;
+      outline: none;
+      font-size: 0.8rem;
+      height: 37px;
+    }
+
+    input[type=text], input[type=email] {
+      font-size: 0.8rem;
+    }
+  }
+
+  .boton-cupa-granate{
+    padding: 0;
+    float: right;
+    padding-top: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 58px;
+
+    a{
+      pointer-events: none;
+    }
+  }
+
+  > p{
+    margin-bottom: 0;
+    max-width: 180px;
+  }
+
+
+  
+  &.form-cupa-footer{
+    //max-width: 370px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: unset;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-bottom: 20px;
+    .cabecera-form{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    p{
+      max-width: 300px;
+    }
+    p.descform{
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    &:not(.its-open){
+      input{
+        background-image: url('../images/email.svg');
+        background-repeat: no-repeat;
+        background-position: center right;
+        box-sizing: border-box;
+      }
+      .boton-cupa-granate{
+        opacity: 0;
+        width: 0;
+      }
+    }
+
+    &.its-open{
+      padding: 20px;
+      position: absolute;
+      top: -340px;
+      z-index: 9;
+      background-color: #F5F5F5;
+      -webkit-box-shadow: 0px 0px 20px 10px rgba(90,90,90,1);
+      -moz-box-shadow: 0px 0px 20px 10px rgba(90,90,90,1);
+      box-shadow: 0px 0px 20px 10px rgba(90,90,90,1);
+      pointer-events: all;
+
+      .boton-cupa-granate{        
+        padding-top: 0px;
+        position: unset;
+
+        a{
+          pointer-events: unset;
+        }
+      }
+
+      > p{
+        max-width: unset;
+      }
+
+      .wpcf7-response-output{
+        /*display: inline;*/
+      }
+    }
+
+    .ajax-loader{
+      display: none !important;
+    }
+
+    .wpcf7-response-output{
+      clear: both;
+      margin-top: 70px;
+      text-align: center;
+    }
+  }
+
+  &.form-single-evento{    
+    &.hide-elements{
+      -webkit-transition: all 1s ease;
+      -moz-transition: all 1s ease;
+      -o-transition: all 1s ease;
+      transition: all 1s ease;
+      
+      .lbl-apellido, .second-dos-col, .third-dos-col, .first-una-col{
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        transition: all 1s ease;
+        display: none !important;
+      }
+
+      .boton-cupa-granate{
+        position: absolute !important;
+        top: -50px;
+        pointer-events: none;
+        a{
+          pointer-events: none !important;
+          input{
+            pointer-events: none !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+#form-presupuesto{
+  .wpcf7-list-item{
+    margin: 5px 0 0 25px;
+    display: block;
+    label{
+      cursor: pointer;
+    }
+  }
+  textarea{
+    min-height: 200px;
+    padding: 10px;
+  }
+  .wpcf7-acceptance{
+    .wpcf7-list-item{
+      margin-left: 0;
+    }
+  }
+  .boton-cupa-blanco{
+    padding: 0;
+  }
+  .col-submit{
+    .waves-input-wrapper{
+      input[type="submit"] {
+        height: 40px;
+        padding: 10px 50px;
+        margin-bottom: 40px;
+      }
+      .wpcf7-spinner{
+        position: absolute;
+        right: 0;
+        top: 14px;
+      }
+    }
+  }
+  .paso-3{
+    .presupuesto{
+      &.ab{
+        .wpcf7-radio{
+          .wpcf7-list-item:nth-child(4),
+          .wpcf7-list-item:nth-child(5),
+          .wpcf7-list-item:nth-child(6),
+          .wpcf7-list-item:nth-child(7),
+          .wpcf7-list-item:nth-child(8){
+            display: none;
+          }
+        }
+      }
+      &.cd{
+          .wpcf7-list-item:nth-child(1),
+          .wpcf7-list-item:nth-child(2),
+          .wpcf7-list-item:nth-child(3){
+            display: none;
+          }
+      }
+    }
+  }
+}
+
+.form-cupa.form-cita{
+  label{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .wpcf7-form-control-wrap{
+    display: block;
+  }
+  .form-control{
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding-top: 0;
+    height: inherit;
+  }
+  select{
+    border: none;
+    border-bottom: 1px solid #bdbdbd;
+  }
+  textarea{
+    height: 100px !important;
+  }
+}
+
+@media(max-width:1024px){
+  .form-cupa.form-cupa-footer{
+    a{
+      padding: 10px;
+    }
+  }
+}
+
+@media(max-width:768px){
+  .form-cupa .boton-cupa-granate{
+    bottom: 0px;
+  }
+}
+
+@media(max-width:767px){
+  .form-cupa.form-cupa-footer.its-open {
+    top: -150px;
+    left: 50%;
+    transform: translate(-50%, -55%);
+  }
+}
+
+@media(max-width:480px){
+  .form-cupa.form-cupa-footer{
+
+    .boton-cupa-granate{
+      bottom: 58px;
+    }
+
+    &.its-open {
+      width: 90%;
+    }
+  }
+}

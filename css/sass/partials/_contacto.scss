@@ -1,0 +1,258 @@
+.pagina-contacto{
+	&:not(.pagina-contacto-sm){
+		font-size: 20px;
+		h2{
+			font-size: 40px;
+			font-weight: 200;
+			margin-bottom: 40px;
+		}
+	}
+	.boton-cupa-blanco{
+		position: relative;
+		a{
+			padding-right: 40px;
+		}
+		&:after{
+			content: '';
+			width: 17px;
+		    height: 17px;
+		    margin-left: 10px;
+		    background-image: url(../images/right-arrow-blanco.png);
+		    background-repeat: no-repeat;
+		    position: absolute;
+		    right: 15px;
+		    top: 50px;
+		}
+	}
+}
+
+#pagina-contacto-ayudarte{
+	.wp-block-hacce-wrapper{
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+		.wp-block-columns{
+			@include lg{
+				display: block;
+			}
+			.wp-block-column{
+				&:last-child{
+					padding: 130px 90px;
+					background-color: rgba(0,0,0,.55) !important;
+					margin-left: 0;
+					@include xs{
+						padding: 20px;
+					}
+					*{
+						max-width: 540px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#pagina-contacto-comprar{
+	.wp-block-hacce-wrapper{
+		.wp-block-columns{
+			@include md{
+				display: block;
+			}
+			@include xs{
+				img{
+				    margin-top: 50px;
+				}
+			}
+			.wp-block-column{
+				&:first-child{
+					*{
+						max-width: 580px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#pagina-contacto-trabajo{
+	.wp-block-hacce-wrapper{
+		.wp-block-columns{
+			@include md{
+				display: block;
+			}
+			@include xs{
+				img{
+				    margin-top: 50px;
+				}
+			}
+			.wp-block-column{
+				&:first-child{
+					*{
+						max-width: 500px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#pagina-contacto-trabaja{
+	.wp-block-hacce-wrapper{
+		.wp-block-columns{
+			margin-bottom: 0;
+			@include md{
+				display: block;
+			}
+			.wp-block-column{
+				&:first-child{
+					.wp-block-hacce-wrapper{
+						min-height: 300px;
+					    height: 100%;
+					    width: 100%;
+					    background-position: left;
+					    background-repeat: no-repeat;
+		    			background-size: cover;
+		    		}
+	    		}
+				&:last-child{
+					padding: 150px 90px;
+					@include xs{
+						padding: 20px;
+					}
+					*{
+						max-width: 480px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#pagina-contacto-formularios{
+	.wp-block-buttons{
+		@include min-lg{
+			max-width: 580px;
+		}
+		.wp-block-button{
+			&:not(.active){
+				a{
+					transition: .3s all;
+					color: #CECECE;
+					&:hover{
+						color: #212529;
+					}
+				}
+			}
+			@include xs{
+				width: 100% !important;
+			}
+		}
+	}
+	.form-cupa{
+		@include min-lg{
+			max-width: 580px;
+		}
+		p{
+			margin-bottom: 20px;
+    		max-width: none;
+		}
+		textarea{
+			border: none;
+			border-bottom: 1px solid #bdbdbd;
+			font-size: 0.8rem;
+			transition: .3s all;
+			&:focus{
+				outline: none;
+				border-bottom: 1px solid #711B46;
+	    		box-shadow: 0 1px 0 0 #711b46;
+			}
+		}
+		.wpcf7-list-item{
+			margin-left: 0;
+			font-size: 0.8rem;
+			input{
+				position: relative;
+				top: 2px;
+			    margin-left: -23px;
+			    margin-right: 5px;
+			}
+			label{
+				padding-left: 25px;
+				margin-bottom: 0;
+			}
+		}
+		.boton-cupa-submit{
+			display: inline-block;
+			position: relative;
+			background-color: #711B46;
+			.wpcf7-submit{
+				cursor: pointer;
+				font-size: 18px;
+			    color: #FFF;
+			    font-weight: 400;
+			    letter-spacing: 1px;
+			    text-transform: uppercase;
+			    display: -webkit-inline-box;
+			    display: -ms-inline-flexbox;
+			    display: inline-flex;
+			    -webkit-box-align: center;
+			    -ms-flex-align: center;
+			    align-items: center;
+			    padding: 15px 75px 15px 50px;
+			    position: relative;
+			    border: 1px solid #FFF;
+			    border-top: none;
+			    border-bottom: none;
+			    text-decoration: none !important;
+			    outline: 0 !important;
+			    background-color: transparent;
+			    -webkit-transition-property: background-color,color,letter-spacing,background-color,border-color,padding;
+			    transition-property: background-color,color,letter-spacing,background-color,border-color,padding;
+			    -webkit-transition-duration: .5s;
+			    transition-duration: .5s;
+			    -webkit-transition-timing-function: ease,ease,cubic-bezier(0.5, 0, 0, 1),ease,ease,cubic-bezier(0.5, 0, 0, 1);
+			    transition-timing-function: ease,ease,cubic-bezier(0.5, 0, 0, 1),ease,ease,cubic-bezier(0.5, 0, 0, 1);
+				&:after{
+					content: '';
+					width: 17px;
+				    height: 17px;
+				    margin-left: 10px;
+				    background-image: url(../images/right-arrow-blanco.png);
+				    background-repeat: no-repeat;
+				    position: absolute;
+				    right: 15px;
+				    top: 50px;
+				}
+			}
+		    &:hover{
+				.wpcf7-submit{
+		    		letter-spacing: 3px;
+		    	}
+		    }
+			.wpcf7-spinner{
+				position: absolute;
+			    left: -10px;
+			    top: 15px;
+			}
+			&:before{
+				content: '';
+				width: 17px;
+			    height: 17px;
+			    margin-left: 10px;
+			    background-image: url(../images/right-arrow-blanco.png);
+			    background-repeat: no-repeat;
+			    position: absolute;
+			    right: 45px;
+			    top: 19px;
+			}
+		}
+		.wpcf7-not-valid-tip{
+			font-size: 0.8rem;
+		}
+		.wpcf7-response-output {
+		    margin: 0 0 20px;
+		    padding: 1em;
+		    font-size: 90%;
+		}
+	}
+}

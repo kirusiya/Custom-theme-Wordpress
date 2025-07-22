@@ -1,0 +1,61 @@
+
+<!-- SUBCABECERA -->
+<div class="bloque bloque-single-productos subcabecera-productos">
+
+	<div class="container-custom">
+		
+		<div class="row">
+			
+			<div class="col-md-4 izq">
+
+				 <div class="referencia">
+<?php if(get_field( 'referencia' )!=null && get_field( 'referencia' )!=""){
+							echo"REF "; 
+							echo get_field( 'referencia' );
+							}
+							else{ echo"";
+							}
+					?>
+</div>
+
+			</div>
+
+			<div class="col-md-8 der">
+				
+
+
+				<div class="conjunto-botones">
+				
+					<?php if( get_field('es_producto_premium') ): ?>
+					<div class="logo-premium" >
+						<img src="<?php echo get_field('imagen_para_productos_premium','options'); ?>" alt="<?php _e('Premium', 'materialwp'); ?>" style="height:57px;width:195px;">
+					</div>
+					<?php endif; ?>
+					
+					<?php if( ! get_field( 'ocultar_boton_contacto' ) ): ?>
+					<div class="boton-cupa-granate boton-mas-info">
+						<a href="<?php echo esc_url( get_field('enlace_boton_contacto_productos','options') ); ?>">
+							<?php esc_html_e( 'Contacto', 'materialwp' ); ?>
+							<span class="arrow-btn"></span>
+						</a>
+					</div>
+					<?php endif; ?>
+
+					<?php if( get_field( 'anadir_boton_descarga_catalogo' ) ): ?>
+					<div class="boton-cupa-granate boton-descarga">
+						<a href="<?php echo get_field( 'enlace_descarga_catalogo' ); ?>">
+							<?php echo get_field( 'texto_descarga_catalogo' ); ?>
+							<span class="arrow-btn"></span>
+						</a>
+					</div>
+					<?php endif; ?>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	
+</div>

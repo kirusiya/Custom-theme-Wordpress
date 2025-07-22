@@ -1,0 +1,95 @@
+
+/*--------------------------------------------------------------
+404
+--------------------------------------------------------------*/
+
+
+.error404 {
+  margin-bottom: 30px;
+  margin-top:30px;
+
+  #page {
+    .article{
+      text-align: center;
+      width:100%;
+      header{
+        h1{
+          color:#000;
+          font-size:45px;
+          text-transform:uppercase;
+          span{
+            color:$mainColor;
+            font-weight:bold;
+            font-family: $tipo_sec;
+          }
+        }
+        img{
+          margin: 0 auto
+        }
+        p{
+          font-size:20px;
+          margin-bottom:0;
+        }
+      }
+      .page-content{
+        clear:both;
+        .md-form{
+          margin:0;
+        }
+        .caja-busqueda {
+          padding:0;
+          input{
+            width:100%;
+            color: #a4a4a4;
+            border: 1px solid #D8D8D8;
+            font-family: inherit;
+            border-radius: 0;
+            margin:0;
+          }
+          label{
+            left:10px;
+          }
+        }
+        .boton-buscar{
+          padding:0;
+          .btn:not(.btn-link):not(.btn-flat){
+            margin:0;
+            padding: 9px 40px;
+            border-radius: 2px;
+          }
+        }
+        .items_404 {
+          margin-top:30px;
+          div{
+            &:last-of-type img {
+              margin-top: 6px;
+            }
+            a{
+              color:#000;
+              text-align: center;
+              font-size:14px;
+            }
+            img{
+              margin: 0 auto;
+              margin-bottom:10px;
+              display:block;
+            }
+          }
+        }
+      }
+      p{
+        color:#000;
+        font-size:16px;
+      }
+    }
+  }
+}
+
+
+
+@media(min-width:768px) {
+  .items_404 .bordegris {
+    border-right: solid 1px #acacac
+  }
+
+}

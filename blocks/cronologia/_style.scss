@@ -1,0 +1,212 @@
+.bloque-cronologia{
+	padding-top: 50px;
+	position: relative;
+
+	h2{
+		text-align: center;
+	    font-size: 36px;
+	    margin-bottom: 50px;
+	    font-weight: 200;
+	}
+
+	.tns-horizontal.tns-subpixel>.tns-item {
+    	vertical-align: middle;
+    }
+
+	.tns-outer{
+		position: relative;
+		z-index: 9;
+
+		&:not(.tns-ovh){
+			min-height: 0;
+		}
+
+		.tns-controls{
+
+			> button{
+				z-index: 1;
+
+				&:first-of-type{
+					left: 0;
+					top: 50%;
+					background-image: url('../images/prev-cupastone-blanco.png');
+				}
+
+				&:last-of-type{
+					right: 0;
+					top: 50%;
+					background-image: url('../images/next-cupastone-blanco.png');
+				}
+			}
+		}
+
+		.tns-inner{
+
+			.container-cronologia{
+
+				div[class^=cronologia-]{
+					position: relative;
+					
+					.inner{
+						min-height: 420px;
+						position: relative;
+						background-position: center;
+					    background-repeat: no-repeat;
+					    background-size: cover;
+
+						.wrap-inner{
+							position: absolute;
+						    bottom: 40px;
+						    left: 40px;
+						    width: calc(100% - 80px);
+						    z-index: 10;
+
+	    					.ano{
+								font-size: 50px;
+							    color: #fff;
+							    font-weight: 200;
+							    line-height: 0.7;
+							    display: block;
+							    margin-bottom: 10px;
+							}
+
+							.titulo{
+								font-size: 25px;
+								font-weight: 400;
+								margin-bottom: 10px;
+								line-height: 1.2;
+								color: #fff;
+								max-width: 80%;
+							}
+
+							.descripcion{
+								font-weight: 100;
+								max-height: 0;
+								color: #fff;
+	    						font-size: 20px;
+	    						overflow: hidden;
+	    						transition: 1s all;
+	    						p{
+	    							margin-bottom: 0;
+	    						}
+							}
+						}
+
+						.capa-overlay{
+							opacity: 0.3;
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							top: 0;
+							z-index: 9;
+							background-color: #000;
+							transition: all 0.6s ease;
+						}
+
+					}
+
+					&:hover{
+						.inner{
+							.wrap-inner{
+								.descripcion{
+									max-height: 340px;
+								}
+							}
+							.capa-overlay{
+								background-color: #6c1d45;
+								opacity: 1;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.balls{
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    margin-bottom: 50px;
+	    column-gap: 8px;
+	    .item-bola{
+			font-size: 25px;
+			font-weight: 200;
+			padding: 10px 30px;
+			border-top: 3px solid;
+			margin-top: 20px;
+			transition: .6s all;
+			color: #bbb;
+			cursor: pointer;
+			&:hover{
+				color: #6c1d45;
+			}
+			&.active, &:hover{
+				font-weight: 400;
+				color: #6c1d45;
+			}
+	    }
+	}
+}
+
+@media (max-width: 1750px) {
+	.bloque-cronologia .balls .item-bola{
+		padding: 10px 20px;
+	}
+}
+
+@media (max-width: 1480px) {
+	.bloque-cronologia .balls .item-bola{
+		padding: 10px 10px;
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.bloque-cronologia .balls .item-bola{
+		padding: 5px;
+	}
+}
+
+@media (max-width: 870px) {
+	.bloque-cronologia .balls .item-bola{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.bloque-cronologia{
+		.tns-outer{
+			.tns-inner{
+				.container-cronologia{
+					div[class^=cronologia-]{
+						.inner{
+							.wrap-inner {
+							    bottom: 10px;
+							    left: 10px;
+							    width: calc(100% - 20px);
+							    .ano{
+							    	font-size: 30px;
+							    }
+							    .titulo{
+							    	font-size: 18px;
+							    }
+								.descripcion{
+									max-height: none;
+									font-size: 14px;
+									font-weight: 300;
+								}
+							}
+							.capa-overlay{
+								opacity: 0.6;
+							}
+						}
+					}
+				}
+			}
+		}
+		.balls{
+			display: none;
+		}
+	}
+}

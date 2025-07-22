@@ -1,0 +1,121 @@
+.bloque-hero-home-video{
+	width: 100%;
+	overflow: hidden;
+
+	.container-video{
+		position: relative;
+
+		img{
+			object-fit: cover;
+		    height: 100%;
+		    width: 100%;
+		}
+
+		video{
+			width: 100%;
+
+			&#video1{
+				display: inline-block
+			}
+		}
+
+		.velo{
+			position: absolute;
+			z-index: 1;
+		    top: -7px;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    background: rgba(0,0,0,1);
+			background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(231,56,39,0) 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,1)), color-stop(40%, rgba(0,0,0,0)), color-stop(100%, rgba(231,56,39,0)));
+			background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(231,56,39,0) 100%);
+			background: -o-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(231,56,39,0) 100%);
+			background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(231,56,39,0) 100%);
+			background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 40%, rgba(231,56,39,0) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#e73827', GradientType=0 );
+		}
+
+		.textos{
+			position: absolute;
+			z-index: 2;
+		    top: 50%;
+		    left: 50%;
+		    transform: translate(-50%, -50%);
+		    width: 80%;
+		    text-align: center;
+
+			h1{
+				color: #FFF;
+			    text-transform: uppercase;
+			    /*max-width: 800px;*/
+			    margin: 0 auto;
+			    font-size: 68px;
+			}
+
+			.boton-cupa-blanco{
+				padding: 0;
+				padding-top: 30px;
+			}
+		}
+	}
+}
+
+@media(max-width:1200px){
+	.bloque-hero-home-video .container-video .textos{
+		width: 90%;
+	}
+}
+
+@media(max-width:1024px){
+	.bloque-hero-home-video .container-video .textos h1{
+		font-size: 50px;
+	}
+}
+
+@media(max-width:768px){
+	.bloque-hero-home-video .container-video {
+		.textos {
+			h1{
+				font-size: 40px;
+			}
+			.boton-cupa-blanco{
+				padding-top: 15px;
+			}
+		}
+	}
+}
+
+@media(max-width:575px){
+	.bloque-hero-home-video{
+		height: 100vh;
+
+		.container-video{
+			height: 100vh;
+
+			video{
+				position: absolute;
+			    top: 0;
+			    left: 50%;
+			    transform: translate(-50%, 0);
+			    height: 100vh;
+			    width: 200vh;
+			    z-index: 0;
+			}
+
+			.velo{
+				top: 0px;
+			}
+
+			.textos h1{
+				font-size: 34px;
+			}
+		}
+	}
+}
+
+@media(max-width:425px){
+	.bloque-hero-home-video .container-video .textos h1{
+		font-size: 30px;
+	}
+}

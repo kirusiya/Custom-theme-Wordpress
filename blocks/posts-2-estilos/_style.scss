@@ -1,0 +1,284 @@
+.bloque-posts-2-estilos{
+
+	.container-posts-2-estilos{
+
+		div[class^=grupo-]{
+			margin-bottom: 20px;
+
+			&:last-child{
+				margin-bottom: 60px;
+			}
+
+			.inner{
+
+				.sup{
+					display: flex;
+				    align-items: center;
+				    justify-content: space-between;
+				    padding-top: 20px;
+				    padding-bottom: 10px;
+				    border-bottom: 3px solid $mainColor;
+    				margin-bottom: 20px;
+
+					.titulo-cat{
+						font-size: 40px;
+					    text-transform: uppercase;
+					    font-weight: 200;
+					}
+
+					.mas-cat{
+						font-size: 20px;
+					    text-transform: uppercase;
+					    font-weight: 500;
+					    position: relative;
+					    padding-right: 25px;
+
+					    &:after{
+					    	content: "";
+					    	width: 20px;
+					    	height: 20px;
+					    	background: url(../images/next.png) no-repeat;
+					    	background-size: cover;
+					    	position: absolute;
+					    	right: 0;
+					    	top: 50%;
+    						transform: translate(0, -50%);
+					    }
+
+						a{
+							color: $texto;
+						}
+					}
+				}
+
+				.inf{
+					&.grupo-impar{
+						.container-posts{
+							.row{
+								.col-md-8{
+									padding-left: 0;
+
+									.mypost-1{
+
+										.image-container{
+											display: flex;
+		    								align-items: flex-end;
+											min-height: 580px;
+											background-position: center;
+										    background-repeat: no-repeat;
+										    background-size: 140%;
+										    transition: all 0.2s linear;
+
+										    &:hover{
+										    	background-size: 150%;
+										    }
+
+										    .card-info{
+										    	display: flex;
+											    align-items: flex-start;
+											    flex-direction: column;
+												background-color: rgba(255, 255, 255, 0.75);
+											    margin: 0 auto 30px;
+											    padding: 10px 20px;
+											    padding-top: 20px;
+											    width: 80%;
+											    min-height: 150px;
+											    margin-bottom: 30px;
+
+												.fecha{
+													text-transform: uppercase;
+												    font-size: 12px;
+												    font-weight: 500;
+												}
+
+												.categorias{
+													text-transform: uppercase;
+												    font-weight: 500;
+												    margin-bottom: 15px;
+												}
+
+												.titulo{
+													font-weight: 700;
+													line-height: 20px;
+													a{
+														color: $texto;
+													}
+												}
+											}
+										}
+									}
+								}
+
+								.col-md-4{
+									padding-right: 0;
+									display: flex;
+								    flex-direction: column;
+								    justify-content: space-between;
+
+								    div[class^=mypost-]{
+								    	
+								    	.image-container{
+								    		display: flex;
+    										align-items: flex-end;
+								    		min-height: 280px;
+								    		background-position: center;
+										    background-repeat: no-repeat;
+										    background-size: 140%;
+										    transition: all 0.2s linear;
+
+										    &:hover{
+										    	background-size: 150%;
+										    }
+
+										    .card-info{
+										    	background-color: rgba(255, 255, 255, 0.75);
+											    margin: 0 auto 30px;
+											    margin-bottom: 30px;
+											    padding: 10px 20px;
+											    width: 80%;
+											    min-height: 125px;
+
+											    .fecha{
+													text-transform: uppercase;
+												    font-size: 12px;
+												    font-weight: 500;
+												}
+
+												.categorias{
+													text-transform: uppercase;
+												    font-weight: 500;
+												    margin-bottom: 15px;
+												}
+
+												.titulo{
+													font-weight: 700;
+													line-height: 20px;
+													a{
+														color: $texto;
+													}
+												}
+										    }
+								    	}
+								    }
+								}
+							}
+						}
+					}
+
+					&.grupo-par{
+
+						.container-posts{
+							display: flex;
+						    align-items: center;
+						    justify-content: space-between;
+
+						    .mypost-2{
+						    	margin: 0 20px;
+						    }
+
+							div[class^=mypost-]{
+								position: relative;
+								flex: 0 0 32%;
+
+								.image-container{
+									display: flex;
+    								align-items: flex-end;
+									min-height: 280px;
+									background-position: center;
+								    background-repeat: no-repeat;
+								    background-size: 140%;
+								    transition: all 0.2s linear;
+
+								    &:hover{
+								    	background-size: 150%;
+								    }									
+
+									.card-info{
+										background-color: rgba(255, 255, 255, 0.75);
+									    margin: 0 auto 30px;
+									    margin-bottom: 30px;
+									    padding: 10px 20px;
+									    width: 80%;
+    									min-height: 125px;
+
+										.fecha{
+											text-transform: uppercase;
+										    font-size: 12px;
+										    font-weight: 500;
+										}
+
+										.categorias{
+											text-transform: uppercase;
+										    font-weight: 500;
+										    margin-bottom: 15px;
+										}
+
+										.titulo{
+											font-weight: 700;
+											line-height: 20px;
+											a{
+												color: $texto;
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
+
+
+@media(max-width:1024px){
+	.bloque-posts-2-estilos .container-posts-2-estilos div[class^=grupo-] .inner .inf .container-posts {
+		display: unset !important;
+		.col-md-8, .col-md-4{
+			width: 100%;
+		    max-width: 100%;
+		    flex: 0 0 100%;
+		    padding: 0;
+		}
+		div[class^=mypost-]{
+			margin: 0 !important;
+			margin-bottom: 15px !important;
+			.image-container{
+			  	min-height: 400px !important;
+			  	background-size: cover !important;
+			  	.card-info{
+			  		margin: 0 auto 30px !important;
+			  	}
+			}
+		}		
+	}
+}
+
+@media(max-width:768px){
+	.bloque-posts-2-estilos .container-posts-2-estilos div[class^=grupo-] .inner .sup{
+		display: unset;
+		.mas-cat{
+		    margin-bottom: 30px;
+		    max-width: 100%;
+		    margin-top: 30px;
+		    font-size: 15px;
+		    text-transform: none;
+		    background-color: #f4f4f4;
+		    &:after{
+		    	right: 5px;
+		    }
+		    a{
+		    	padding: 10px;
+		    	display: block;
+		    }
+		}
+	}
+}
+
+@media(max-width:426px){
+	.bloque-posts-2-estilos .container-posts-2-estilos div[class^=grupo-] .inner .inf .container-posts div[class^=mypost-] .image-container {
+	    min-height: 300px !important;
+	}
+}

@@ -1,0 +1,940 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-07-21 12:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+#: footer.php:151
+msgid " ® Todos los derechos reservados"
+msgstr "® All rights reserved"
+
+#: inc/template-tags.php:103
+msgid "% Comments"
+msgstr ""
+
+#. 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/template-tags.php:175
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: comments.php:45 comments.php:64
+msgid "&larr; Older Comments"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:95 inc/template-tags.php:118
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:103
+msgid "1 Comment"
+msgstr ""
+
+#: inc/comments-callback.php:42
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:97
+#, php-format
+msgid "<i class=\"mdi-file-folder-open\"></i> %1$s"
+msgstr ""
+
+#: inc/template-tags.php:120
+#, php-format
+msgid "<i class=\"mdi-maps-local-offer\"></i> %1$s"
+msgstr ""
+
+#: blocks/hero/template.php:24
+msgid "<span>Piedra</span> <span>Natural</span>"
+msgstr "<span>Natural</span> <span>Stone</span>"
+
+#: parts/archive-productos/filtros.php:44 hincludes/cpt/cpt_productos.php:180
+msgid "Acabado"
+msgstr "Finish"
+
+#: parts/single-productos/datos-producto.php:141
+msgid "Acabado:"
+msgstr "Finish:"
+
+#: hincludes/cpt/cpt_productos.php:179 hincludes/cpt/cpt_productos.php:189
+msgid "Acabados"
+msgstr ""
+
+#: 403.php:18
+msgid "Acceso no permitido."
+msgstr "Access denied."
+
+#: 403.php:21
+msgid "Acceso No Permitido. No tiene permiso para acceder a esta sección."
+msgstr "Access denied. You do not have permission to access this section."
+
+#: hincludes/cpt/cpt_productos.php:15 hincludes/cpt/cpt_productos.php:56
+#: hincludes/cpt/cpt_productos.php:79 hincludes/cpt/cpt_productos.php:107
+#: hincludes/cpt/cpt_productos.php:135 hincludes/cpt/cpt_productos.php:163
+#: hincludes/cpt/cpt_productos.php:186 hincludes/cpt/cpt_productos.php:209
+#: hincludes/cpt/cpt_cronologia.php:15 hincludes/cpt/cpt_proyectos.php:15
+#: hincludes/cpt/cpt_proyectos.php:106 hincludes/cpt/cpt_ventajas.php:15
+#: hincludes/cpt/cpt_recursos.php:15 hincludes/cpt/cpt_recursos.php:50
+#: hincludes/cpt/cpt_puntos_de_venta.php:15 hincludes/cpt/cpt_faq.php:15
+#: hincludes/cpt/cpt_faq.php:50
+msgid "Actualizar"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:56 hincludes/cpt/cpt_puntos_de_venta.php:50
+msgid "Actualizar categoría"
+msgstr ""
+
+#: 404.php:40
+msgid "Anterior"
+msgstr "Previous"
+
+#: hincludes/cpt/cpt_productos.php:100 hincludes/cpt/cpt_productos.php:110
+#: hincludes/cpt/cpt_proyectos.php:99 hincludes/cpt/cpt_proyectos.php:109
+msgid "Aplicaciones"
+msgstr ""
+
+#: hincludes/functions.php:1599 parts/archive-productos/filtros.php:32
+#: hincludes/cpt/cpt_productos.php:101 hincludes/cpt/cpt_proyectos.php:100
+msgid "Aplicación"
+msgstr "Application"
+
+#: parts/single-productos/datos-producto.php:105
+msgid "Aplicación:"
+msgstr "Application:"
+
+#: inc/template-tags.php:177
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:171
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: parts/single-post/cuando-donde.php:40
+msgid "Asistir"
+msgstr "Help"
+
+#: inc/template-tags.php:145
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:12 hincludes/cpt/cpt_productos.php:57
+#: hincludes/cpt/cpt_productos.php:80 hincludes/cpt/cpt_productos.php:108
+#: hincludes/cpt/cpt_productos.php:136 hincludes/cpt/cpt_productos.php:164
+#: hincludes/cpt/cpt_productos.php:187 hincludes/cpt/cpt_productos.php:210
+#: hincludes/cpt/cpt_cronologia.php:12 hincludes/cpt/cpt_proyectos.php:12
+#: hincludes/cpt/cpt_proyectos.php:107 hincludes/cpt/cpt_ventajas.php:12
+#: hincludes/cpt/cpt_recursos.php:12 hincludes/cpt/cpt_recursos.php:51
+#: hincludes/cpt/cpt_puntos_de_venta.php:12 hincludes/cpt/cpt_faq.php:12
+#: hincludes/cpt/cpt_faq.php:51
+msgid "Añadir"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:57 hincludes/cpt/cpt_puntos_de_venta.php:51
+msgid "Añadir categoría"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:13 hincludes/cpt/cpt_cronologia.php:13
+#: hincludes/cpt/cpt_proyectos.php:13 hincludes/cpt/cpt_ventajas.php:13
+#: hincludes/cpt/cpt_recursos.php:13 hincludes/cpt/cpt_puntos_de_venta.php:13
+#: hincludes/cpt/cpt_faq.php:13
+msgid "Añadir nuevo"
+msgstr ""
+
+#: parts/single-proyectos/cabecera.php:36
+#: parts/single-proyectos/cabecera.php:37
+msgid "Año"
+msgstr "Year"
+
+#: searchform.php:12 searchform-menu.php:12 404.php:28 404.php:32
+#: hincludes/cpt/cpt_productos.php:16 hincludes/cpt/cpt_productos.php:51
+#: hincludes/cpt/cpt_productos.php:74 hincludes/cpt/cpt_productos.php:102
+#: hincludes/cpt/cpt_productos.php:130 hincludes/cpt/cpt_productos.php:158
+#: hincludes/cpt/cpt_productos.php:181 hincludes/cpt/cpt_productos.php:204
+#: hincludes/cpt/cpt_cronologia.php:16 hincludes/cpt/cpt_proyectos.php:16
+#: hincludes/cpt/cpt_proyectos.php:51 hincludes/cpt/cpt_proyectos.php:101
+#: hincludes/cpt/cpt_ventajas.php:16 hincludes/cpt/cpt_recursos.php:16
+#: hincludes/cpt/cpt_recursos.php:45 hincludes/cpt/cpt_puntos_de_venta.php:16
+#: hincludes/cpt/cpt_puntos_de_venta.php:45 hincludes/cpt/cpt_faq.php:16
+#: hincludes/cpt/cpt_faq.php:45
+msgid "Buscar"
+msgstr "Search"
+
+#: inc/template-tags.php:141
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:50 hincludes/cpt/cpt_puntos_de_venta.php:44
+#: hincludes/cpt/cpt_faq.php:44
+msgid "Categoría"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:49 hincludes/cpt/cpt_proyectos.php:59
+#: hincludes/cpt/cpt_puntos_de_venta.php:43
+#: hincludes/cpt/cpt_puntos_de_venta.php:53 hincludes/cpt/cpt_faq.php:43
+msgid "Categorías"
+msgstr ""
+
+#: hincludes/cpt/cpt_faq.php:53
+msgid "Categorías FAQs"
+msgstr ""
+
+#: parts/archive-productos/filtros.php:40 hincludes/cpt/cpt_productos.php:157
+msgid "Color"
+msgstr "Color"
+
+#: parts/single-productos/datos-producto.php:127
+msgid "Color principal:"
+msgstr "Main colour"
+
+#: hincludes/cpt/cpt_productos.php:156 hincludes/cpt/cpt_productos.php:166
+msgid "Colores"
+msgstr ""
+
+#: comments.php:44 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:75
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: parts/compartir.php:18
+msgid "Compartir artículo"
+msgstr "Share article"
+
+#: inc/customizer.php:52
+msgid "Complimentary Color"
+msgstr ""
+
+#: parts/loop/localizacion-punto-de-venta.php:126
+#: parts/archive-productos/filtros.php:142
+#: blocks/mapa-puntos-de-venta/template.php:111
+msgid "Contacta"
+msgstr "Contact"
+
+#: parts/loop/localizacion-punto-de-venta.php:68
+#: parts/single-productos/subcabecera.php:30
+msgid "Contacto"
+msgstr "contact"
+
+#: 404.php:48
+msgid "Contáctanos"
+msgstr "Contact us"
+
+#: hincludes/functions.php:48
+msgid "CPT Productos"
+msgstr ""
+
+#: hincludes/functions.php:49
+msgid "CPT Proyectos"
+msgstr ""
+
+#: hincludes/cpt/cpt_cronologia.php:22
+msgid "cronologia"
+msgstr ""
+
+#: hincludes/cpt/cpt_cronologia.php:6 hincludes/cpt/cpt_cronologia.php:7
+#: hincludes/cpt/cpt_cronologia.php:8
+msgid "Cronología"
+msgstr ""
+
+#. Name of the theme
+msgid "Cupastone"
+msgstr ""
+
+#: blocks/mapa-puntos-de-venta/template.php:77
+msgid "Cupastone logo"
+msgstr ""
+
+#: parts/single-post/cuando-donde.php:18
+msgid "CUÁNDO: "
+msgstr "WHEN:"
+
+#: inc/template-tags.php:151
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:151
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: parts/single-proyectos/cabecera.php:44
+#: parts/single-proyectos/cabecera.php:45
+msgid "Diseño"
+msgstr "Design"
+
+#: parts/single-post/cuando-donde.php:30
+msgid "DÓNDE: "
+msgstr "WHERE:"
+
+#: inc/comments-callback.php:19 inc/comments-callback.php:44
+#: inc/template-tags.php:124
+msgid "Edit"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:14 hincludes/cpt/cpt_productos.php:55
+#: hincludes/cpt/cpt_productos.php:78 hincludes/cpt/cpt_productos.php:106
+#: hincludes/cpt/cpt_productos.php:134 hincludes/cpt/cpt_productos.php:162
+#: hincludes/cpt/cpt_productos.php:185 hincludes/cpt/cpt_productos.php:208
+#: hincludes/cpt/cpt_cronologia.php:14 hincludes/cpt/cpt_proyectos.php:14
+#: hincludes/cpt/cpt_proyectos.php:105 hincludes/cpt/cpt_ventajas.php:14
+#: hincludes/cpt/cpt_recursos.php:14 hincludes/cpt/cpt_recursos.php:49
+#: hincludes/cpt/cpt_puntos_de_venta.php:14 hincludes/cpt/cpt_faq.php:14
+#: hincludes/cpt/cpt_faq.php:49
+msgid "Editar"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:55 hincludes/cpt/cpt_puntos_de_venta.php:49
+msgid "Editar categoría"
+msgstr ""
+
+#: parts/single-proyectos/textos.php:98
+msgid "Empresa constructora"
+msgstr "Construction company"
+
+#: 404.php:17
+msgid "Error <span>404</span>"
+msgstr "Error <span>404</span>"
+
+#: parts/archive-productos/filtros.php:36 hincludes/cpt/cpt_productos.php:129
+msgid "Espacio"
+msgstr "Space"
+
+#: hincludes/cpt/cpt_productos.php:128 hincludes/cpt/cpt_productos.php:138
+msgid "Espacios"
+msgstr ""
+
+#: parts/single-productos/datos-producto.php:73
+msgid "Espacios:"
+msgstr "Spaces"
+
+#: parts/single-proyectos/textos.php:125
+msgid "Etiquetas"
+msgstr "Tags"
+
+#: hincludes/cpt/cpt_faq.php:7
+msgid "FAQ"
+msgstr ""
+
+#: hincludes/cpt/cpt_faq.php:6 hincludes/cpt/cpt_faq.php:8
+#: hincludes/cpt/cpt_faq.php:22
+msgid "FAQs"
+msgstr ""
+
+#: parts/single-productos/datos-producto.php:188
+msgid "Ficha técnica:"
+msgstr "Data Sheet:"
+
+#: parts/single-productos/datos-producto.php:155
+msgid "Formatos:"
+msgstr "Format"
+
+#: parts/single-proyectos/textos.php:106
+msgid "Fotografías"
+msgstr "Photographs"
+
+#: parts/taxonomy-galeria/miga-de-pan.php:17 hincludes/cpt/cpt_productos.php:50
+msgid "Galería"
+msgstr "Gallery"
+
+#: hincludes/cpt/cpt_productos.php:49 hincludes/cpt/cpt_productos.php:59
+msgid "Galerías"
+msgstr ""
+
+#: hincludes/functions.php:1556 parts/archive-productos/filtros.php:28
+#: hincludes/cpt/cpt_productos.php:73
+msgid "Gama"
+msgstr "Collection"
+
+#: parts/taxonomy-gama/productos.php:60
+#: parts/taxonomy-aplicacion/productos.php:60
+#: parts/taxonomy-espacio/productos.php:58
+msgid "GAMA COMPLETA"
+msgstr "FULL RANGE"
+
+#: parts/single-productos/datos-producto.php:59
+msgid "Gama:"
+msgstr "Collection:"
+
+#: parts/taxonomy-galeria/galeria.php:64
+msgid "Gama: "
+msgstr "Collection:"
+
+#: hincludes/cpt/cpt_productos.php:72 hincludes/cpt/cpt_productos.php:82
+msgid "Gamas"
+msgstr ""
+
+#. Author of the theme
+msgid "Hacce Soluciones TIC"
+msgstr ""
+
+#: parts/loop/localizacion-punto-de-venta.php:113
+msgid "Horario"
+msgstr "Schedule"
+
+#: footer.php:198
+msgid "Imagen"
+msgstr "Image"
+
+#. Name of the template
+msgid "Import CSV"
+msgstr ""
+
+#: 404.php:44 parts/miga-de-pan-simple.php:12
+#: parts/single-proyectos/miga-de-pan.php:7
+#: parts/taxonomy-galeria/miga-de-pan.php:15
+#: parts/single-productos/miga-de-pan.php:17
+msgid "Inicio"
+msgstr "Home"
+
+#: 403.php:22
+msgid "Intenta iniciar sesión primero."
+msgstr "Try login first"
+
+#: 404.php:22
+msgid "Intente buscarla de nuevo"
+msgstr "Try looking for it again"
+
+#: parts/single-proyectos/textos.php:90
+msgid "Interiorista"
+msgstr "Interior designer"
+
+#: blocks/cabecera-punto-de-venta/template.php:28
+msgid "Introduce tu ciudad"
+msgstr "Introduce your city"
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: 404.php:18
+msgid "La página que está buscando no existe"
+msgstr "The page you are looking for no longer exists"
+
+#: inc/template-tags.php:103
+msgid "Leave a comment"
+msgstr ""
+
+#: parts/archive-eventos/filtros.php:35 parts/archive-productos/filtros.php:59
+#: parts/archive-proyectos/filtros.php:50
+msgid "Limpiar filtros"
+msgstr "Clean filters"
+
+#: inc/customizer.php:58
+msgid "Link Color"
+msgstr ""
+
+#: content-none.php:24
+msgid "Lo sentimos, no hemos encontrada nada, prueba una nueva búsqueda."
+msgstr "Sorry, we haven't found anything, try a new search."
+
+#: parts/archive-proyectos/filtros.php:35
+msgid "Localización"
+msgstr "Location"
+
+#: blocks/mapa-puntos-de-venta/template.php:75
+msgid "Logo"
+msgstr ""
+
+#: parts/single-proyectos/cabecera.php:28
+#: parts/single-proyectos/cabecera.php:29
+msgid "Lugar"
+msgstr "Location"
+
+#: blocks/mapa-puntos-de-venta/template.php:37
+#: blocks/mapa-puntos-de-venta/template.php:38
+msgid "Mapa Puntos de venta"
+msgstr "Map Stores"
+
+#: parts/archive-productos/filtros.php:48 hincludes/cpt/cpt_productos.php:203
+msgid "Material"
+msgstr "Material"
+
+#: hincludes/cpt/cpt_productos.php:202 hincludes/cpt/cpt_productos.php:212
+msgid "Materiales"
+msgstr ""
+
+#: hincludes/functions.php:223
+msgid "Menú footer"
+msgstr ""
+
+#: hincludes/functions.php:224
+msgid "Menú legal"
+msgstr ""
+
+#: hincludes/functions.php:222
+msgid "Menú topbar"
+msgstr ""
+
+#: inc/template-tags.php:149
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:149
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: parts/_old/loop/evento.php:37
+msgid "More info"
+msgstr ""
+
+#: inc/customizer.php:46
+msgid "Navigation Background Color"
+msgstr ""
+
+#: comments.php:46 comments.php:65
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: inc/template-tags.php:56
+msgctxt "Next post link"
+msgid ""
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:17 hincludes/cpt/cpt_cronologia.php:17
+#: hincludes/cpt/cpt_proyectos.php:17 hincludes/cpt/cpt_ventajas.php:17
+#: hincludes/cpt/cpt_recursos.php:17 hincludes/cpt/cpt_puntos_de_venta.php:17
+#: hincludes/cpt/cpt_faq.php:17
+msgid "No encontrado"
+msgstr ""
+
+#: parts/archive-productos/filtros.php:139
+msgid ""
+"No existen productos con los filtros que has seleccionado.<br><br>¿Necesitas "
+"ayuda?"
+msgstr ""
+"There are no products with the filters you have selected.<br><br>Need help? "
+"CONTACT"
+
+#: parts/archive-proyectos/filtros.php:119
+msgid ""
+"No existen proyectos con los filtros que has seleccionado.<br><br>¿Necesitas "
+"ayuda? <div class=\"boton-cupa-granate\"><a href=\"/contacto/\">"
+"CONTACTA<span class=\"arrow-btn\"></span></a></div>"
+msgstr ""
+
+#: blocks/faqs/template.php:16
+msgid "No hay FAQs en este momento."
+msgstr "There are no FAQs at this time."
+
+#: hincludes/cpt/cpt_productos.php:18 hincludes/cpt/cpt_cronologia.php:18
+#: hincludes/cpt/cpt_proyectos.php:18 hincludes/cpt/cpt_ventajas.php:18
+#: hincludes/cpt/cpt_recursos.php:18 hincludes/cpt/cpt_puntos_de_venta.php:18
+#: hincludes/cpt/cpt_faq.php:18
+msgid "Not found in Trash"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:58 hincludes/cpt/cpt_productos.php:81
+#: hincludes/cpt/cpt_productos.php:109 hincludes/cpt/cpt_productos.php:137
+#: hincludes/cpt/cpt_productos.php:165 hincludes/cpt/cpt_productos.php:188
+#: hincludes/cpt/cpt_productos.php:211 hincludes/cpt/cpt_proyectos.php:108
+#: hincludes/cpt/cpt_recursos.php:52 hincludes/cpt/cpt_faq.php:52
+msgid "Nuevo nombre"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:58 hincludes/cpt/cpt_puntos_de_venta.php:52
+msgid "Nuevo nombre de categoría"
+msgstr ""
+
+#: parts/single-productos/datos-producto.php:169
+msgid "Opciones:"
+msgstr "Options"
+
+#: parts/single-productos/datos-producto.php:91
+msgid "Origen:"
+msgstr "Source"
+
+#: hincludes/cpt/cpt_productos.php:9 hincludes/cpt/cpt_productos.php:53
+#: hincludes/cpt/cpt_productos.php:76 hincludes/cpt/cpt_productos.php:104
+#: hincludes/cpt/cpt_productos.php:132 hincludes/cpt/cpt_productos.php:160
+#: hincludes/cpt/cpt_productos.php:183 hincludes/cpt/cpt_productos.php:206
+#: hincludes/cpt/cpt_cronologia.php:9 hincludes/cpt/cpt_proyectos.php:9
+#: hincludes/cpt/cpt_proyectos.php:103 hincludes/cpt/cpt_ventajas.php:9
+#: hincludes/cpt/cpt_recursos.php:9 hincludes/cpt/cpt_recursos.php:47
+#: hincludes/cpt/cpt_puntos_de_venta.php:9 hincludes/cpt/cpt_faq.php:9
+#: hincludes/cpt/cpt_faq.php:47
+msgid "Parent"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:53 hincludes/cpt/cpt_puntos_de_venta.php:47
+msgid "Parent Categoría"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:54 hincludes/cpt/cpt_puntos_de_venta.php:48
+msgid "Parent Categoría:"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:54 hincludes/cpt/cpt_productos.php:77
+#: hincludes/cpt/cpt_productos.php:105 hincludes/cpt/cpt_productos.php:133
+#: hincludes/cpt/cpt_productos.php:161 hincludes/cpt/cpt_productos.php:184
+#: hincludes/cpt/cpt_productos.php:207 hincludes/cpt/cpt_proyectos.php:104
+#: hincludes/cpt/cpt_recursos.php:48 hincludes/cpt/cpt_faq.php:48
+msgid "Parent:"
+msgstr ""
+
+#: parts/pedir-presupuesto.php:33
+msgid "Pide presupuesto"
+msgstr "Request a quote"
+
+#: functions.php:103
+msgid "Pie columna 1"
+msgstr ""
+
+#: functions.php:114
+msgid "Pie columna 2"
+msgstr ""
+
+#: functions.php:125
+msgid "Pie columna 3"
+msgstr ""
+
+#: inc/comments-callback.php:19
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:82
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: inc/template-tags.php:153
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:167
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:169
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:155
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:157
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:163
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:161
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:165
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:159
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr ""
+
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr ""
+
+#: parts/single-productos/subcabecera.php:21
+msgid "Premium"
+msgstr "Premium"
+
+#. Name of the template
+msgid "Presupuesto"
+msgstr ""
+
+#: inc/template-tags.php:55
+msgctxt "Previous post link"
+msgid ""
+msgstr ""
+
+#: functions.php:50
+msgid "Primary Menu"
+msgstr ""
+
+#: parts/single-proyectos/cabecera.php:52
+#: parts/single-proyectos/cabecera.php:53
+#: parts/archive-proyectos/filtros.php:31 hincludes/cpt/cpt_productos.php:7
+msgid "Producto"
+msgstr "Product"
+
+#: parts/single-proyectos/productos-utilizados.php:37
+msgid "Producto<br><b>utilizado</b>"
+msgstr "Product<br><b>used</b>"
+
+#: parts/single-productos/miga-de-pan.php:18 hincludes/cpt/cpt_productos.php:6
+#: hincludes/cpt/cpt_productos.php:8
+msgid "Productos"
+msgstr "Products"
+
+#: hincludes/cpt/cpt_productos.php:27
+msgid "productos"
+msgstr "products"
+
+#: hincludes/cpt/cpt_proyectos.php:7
+msgid "Proyecto"
+msgstr "Project"
+
+#: parts/single-proyectos/miga-de-pan.php:9 hincludes/cpt/cpt_proyectos.php:6
+#: hincludes/cpt/cpt_proyectos.php:8
+msgid "Proyectos"
+msgstr "Projects"
+
+#: hincludes/cpt/cpt_proyectos.php:27
+msgid "proyectos"
+msgstr "projects"
+
+#: hincludes/cpt/cpt_puntos_de_venta.php:7
+msgid "Punto de venta"
+msgstr ""
+
+#: hincludes/cpt/cpt_puntos_de_venta.php:6
+#: hincludes/cpt/cpt_puntos_de_venta.php:8
+msgid "Puntos de venta"
+msgstr ""
+
+#: hincludes/cpt/cpt_puntos_de_venta.php:22
+msgid "puntos-de-venta"
+msgstr ""
+
+#. Name of the template
+msgid "Página ancho completo"
+msgstr ""
+
+#. Name of the template
+msgid "Página de cita previa"
+msgstr ""
+
+#. Name of the template
+msgid "Página de contacto"
+msgstr ""
+
+#. Name of the template
+msgid "Página encuestas"
+msgstr ""
+
+#. Name of the template
+msgid "Página sostenibilidad"
+msgstr ""
+
+#: inc/extras.php:145
+msgid "Read More"
+msgstr ""
+
+#: hincludes/cpt/cpt_recursos.php:7
+msgid "Recurso"
+msgstr ""
+
+#: hincludes/cpt/cpt_recursos.php:6 hincludes/cpt/cpt_recursos.php:8
+msgid "Recursos"
+msgstr ""
+
+#: hincludes/cpt/cpt_recursos.php:22
+msgid "recursos"
+msgstr ""
+
+#: inc/comments-callback.php:57
+msgid "reply to comment"
+msgstr ""
+
+#: functions.php:92
+msgid "Sidebar"
+msgstr ""
+
+#: content-none.php:16
+msgid "Sin resultados para "
+msgstr "No results for"
+
+#: header.php:540
+msgid "Skip to content"
+msgstr ""
+
+#: blocks/foto-texto/template.php:39
+msgid "Stonepanel Sylvestre"
+msgstr "Stonepanel Sylvestre"
+
+#. Name of the template
+msgid "Tabla de productos para exportar"
+msgstr ""
+
+#: inc/template-tags.php:143
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: hincludes/functions.php:50
+msgid "TAX Aplicación"
+msgstr ""
+
+#: hincludes/functions.php:51
+msgid "TAX Espacio"
+msgstr ""
+
+#: hincludes/functions.php:52
+msgid "TAX Gama"
+msgstr ""
+
+#: hincludes/cpt/cpt_recursos.php:44
+msgid "Tipo"
+msgstr ""
+
+#: hincludes/cpt/cpt_recursos.php:43 hincludes/cpt/cpt_recursos.php:53
+msgid "Tipos"
+msgstr ""
+
+#: blocks/gama-completa/template.php:16
+msgid "Toda la gama completa de STONEPANEL<sup>®</sup>"
+msgstr "Full range of Stonepanel<sup>®</sup>"
+
+#: hincludes/cpt/cpt_productos.php:75 hincludes/cpt/cpt_productos.php:103
+#: hincludes/cpt/cpt_productos.php:159 hincludes/cpt/cpt_proyectos.php:102
+#: hincludes/cpt/cpt_faq.php:10
+msgid "Todas"
+msgstr ""
+
+#: hincludes/cpt/cpt_proyectos.php:52 hincludes/cpt/cpt_puntos_de_venta.php:46
+msgid "Todas las categorías"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:10 hincludes/cpt/cpt_productos.php:52
+#: hincludes/cpt/cpt_productos.php:131 hincludes/cpt/cpt_productos.php:182
+#: hincludes/cpt/cpt_productos.php:205 hincludes/cpt/cpt_cronologia.php:10
+#: hincludes/cpt/cpt_proyectos.php:10 hincludes/cpt/cpt_ventajas.php:10
+#: hincludes/cpt/cpt_recursos.php:10 hincludes/cpt/cpt_recursos.php:46
+#: hincludes/cpt/cpt_puntos_de_venta.php:10 hincludes/cpt/cpt_faq.php:46
+msgid "Todos"
+msgstr ""
+
+#: hincludes/cpt/cpt_ventajas.php:7
+msgid "Ventaja"
+msgstr ""
+
+#: hincludes/cpt/cpt_ventajas.php:6 hincludes/cpt/cpt_ventajas.php:8
+msgid "Ventajas"
+msgstr ""
+
+#: hincludes/cpt/cpt_ventajas.php:22
+msgid "ventajas"
+msgstr ""
+
+#: hincludes/cpt/cpt_productos.php:11 hincludes/cpt/cpt_cronologia.php:11
+#: hincludes/cpt/cpt_proyectos.php:11 hincludes/cpt/cpt_ventajas.php:11
+#: hincludes/cpt/cpt_recursos.php:11 hincludes/cpt/cpt_puntos_de_venta.php:11
+#: hincludes/cpt/cpt_faq.php:11
+msgid "ver"
+msgstr ""
+
+#: blocks/aplicaciones/template.php:55
+msgid "Ver aplicación"
+msgstr "See aplication"
+
+#: blocks/espacios/template.php:49
+msgid "Ver espacio"
+msgstr "See space"
+
+#: blocks/slider-stonepanel/template.php:97
+msgid "Ver ficha"
+msgstr "See file"
+
+#: parts/single-productos/cabecera.php:46
+msgid "Ver galería"
+msgstr "See gallery"
+
+#: parts/category/posts.php:218
+msgid "Ver menos"
+msgstr "See less"
+
+#: parts/category/posts.php:154 parts/category/posts.php:228
+msgid "Ver más"
+msgstr "See more"
+
+#: parts/single-proyectos/productos-utilizados.php:46
+msgid "VER PRODUCTO"
+msgstr "SEE PRODUCT"
+
+#: blocks/gamas/template.php:53
+msgid "Ver productos"
+msgstr "View Products"
+
+#: blocks/aplicaciones-y-espacios/template.php:50
+msgid "Ver todas"
+msgstr "See all"
+
+#: blocks/posts-2-estilos/template.php:23
+msgid "Ver todo"
+msgstr "See all"
+
+#: blocks/posts-2-estilos/template.php:121
+msgid "Ver todo sobre"
+msgstr "See all about"
+
+#: parts/taxonomy-galeria/galeria.php:135
+msgid "Volver"
+msgstr "Return"
+
+#: inc/template-tags.php:147
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:147
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/comments-callback.php:49
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: blocks/posts-2-estilos/template.php:19
+msgid "Últimas noticias"
+msgstr "Last News"

@@ -1,0 +1,316 @@
+/* Cabecera transparente */
+body.page-template-template-sostenibilidad{
+  header#masthead{
+    .navbar{
+      &:not(.top-nav-collapse){
+        &:not(.menu-is-open){
+          background-color: transparent;
+          box-shadow: none;
+          .mainbar{
+            .navbar-brand{
+              img{
+                &.img1{
+                  display: block;
+                }
+                &.img2{
+                  display: none;
+                }
+              }
+            }
+            .navbar-collapse:not(.show){
+              ul{
+                li{
+                  a{
+                    color: #fff;
+                    &:hover{
+                      color: #F0E8EC;
+                    }
+                    &.dropdown-toggle::after{
+                      background-image: url(../images/dropdown-arrow-white.svg);
+                    }
+                  }
+                }
+              }
+            }
+            .col-der{
+              .header-search-form{
+                img{
+                  filter: brightness(100);
+                }
+              }
+              .idiomas.dropdown>a{
+                color: #fff;
+                &:hover{
+                  color: #F0E8EC !important;
+                }
+                &.dropdown-toggle::after{
+                  background-image: url(../images/dropdown-arrow-white.svg);
+                }
+              }
+              .animated-icon{
+                span{
+                  background: #fff;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+body.page-template-template-sostenibilidad{
+  h2.titulo,
+  h1.titulo{
+    font-size: 68px;
+    border-left: 4px solid #711B46 !important;
+    line-height: 1;
+    padding-left: 25px;
+    font-weight: 500;
+    strong, b{
+      font-weight: 500;
+    }
+    &.b-white{
+      border-left: 6px solid #FFF !important;        
+    }
+    @include xl{
+      font-size: 50px;
+    }
+    @include sm{
+      font-size: 30px;
+    }
+    &.right{
+      border-right: 6px solid #711B46 !important;
+      border-left: none !important;
+      padding-right: 40px;
+      padding-left: 0;
+      @include xl{
+        padding-right: 25px;
+      }
+      &.b-white{
+        border-right: 6px solid #FFF !important;        
+      }
+    }
+  }
+
+  .bloque-texto-foto .der{
+    overflow: inherit;
+    img{
+      @include min-md{
+        max-width: none;
+      }
+    }
+  }
+
+  .sostenibilidad-cabecera{
+    height: 100vh;
+    h1{
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+  }
+
+  .sostenibilidad-presentacion{
+    padding: 140px 0 100px;
+    font-size: 20px;
+  }
+
+  .sostenibilidad-natural-titulo{
+
+  }
+
+  .sostenibilidad-natural{
+    margin-bottom: 140px;
+    overflow: hidden;
+    @include md{
+      .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+      }
+    }
+    h2{
+      margin: 0;
+    }
+    .container-texto{
+      .descripcion{
+        p{
+          margin-bottom: 1.5em;
+        }
+        table{
+          margin-top: 4em;
+          margin-bottom: 0;
+          @include md{
+            text-align: center;
+          }
+          td{
+            padding-bottom: 4em;
+            img{
+              opacity: .3;
+            }
+            strong{
+              display: block;
+              text-transform: uppercase;
+              color: #88AF33;
+              font-size: 20px;
+              margin: 15px 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sostenibilidad-certificaciones-titulo{
+    margin-bottom: -100px;
+    z-index: 1;
+    position: relative;
+    @include lg{
+      margin-bottom: 0;
+    }
+  }
+
+  .sostenibilidad-certificaciones{
+    .der{
+      text-align: right;
+      .container-texto{
+        @include lg{
+          padding-top: 50px;
+        }
+        .descripcion{
+          p{
+            margin-bottom: 1.5em;
+          }
+        }
+      }
+    }
+  }
+
+  .sostenibilidad-eficiencia{
+    padding: 120px 0;
+    h4{
+      margin-bottom: 30px;
+    }
+    h2{
+      font-size: 68px;
+      margin-bottom: 80px;
+      strong{
+        font-weight: 500;
+      }
+      @include xl{
+        font-size: 50px;
+      }
+      @include sm{
+        font-size: 30px;
+      }
+    }
+    .texto{
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 20px;
+      margin-bottom: 60px;
+    }
+    .wp-block-columns{
+      margin-bottom: 60px;
+      .wp-block-column{
+        text-align: center;
+        @include md{
+          margin-bottom: 50px;
+        }
+        p{
+          max-width: 200px;
+          margin: 0 auto;
+          font-weight: 500;
+        }
+      }
+    }
+    .boton-cupa-blanco{
+      position: relative;
+      a{
+        padding-right: 40px;
+      }
+      &:after{
+        content: '';
+        width: 17px;
+          height: 17px;
+          margin-left: 10px;
+          background-image: url(../images/right-arrow-blanco.png);
+          background-repeat: no-repeat;
+          position: absolute;
+          right: 15px;
+          top: 50px;
+      }
+    }
+  }
+
+  .sostenibilidad-residuos-titulo{
+    margin-top: 140px;
+    margin-bottom: -100px;
+    z-index: 1;
+    position: relative;
+  }
+
+  .sostenibilidad-residuos{
+    padding-bottom: 140px;
+    overflow: hidden;
+    @include lg{
+      padding-bottom: 40px;
+    }
+    .container-texto{
+      .descripcion{
+        p{
+          margin-bottom: 1.5em;
+        }
+      }
+    }
+  }
+
+  .sostenibilidad-politicas{
+    margin-bottom: 100px;
+    .wp-block-column{
+      @include sm{
+        margin-bottom: 40px;
+      }
+    }
+    .fake-a{
+      .wp-block-cover__gradient-background{
+        transition: .5s all;
+      }
+      &:hover{
+        .wp-block-cover__gradient-background{
+          opacity: .25;
+        }
+      }
+      @include xl{
+        min-height: 500px !important;
+      }
+    }
+    .wp-block-cover__inner-container{
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100%;
+      padding: 150px 0;
+      @include xl{
+        padding: 50px 0;
+      }
+      @include md{
+        padding: 50px 30px;
+      }
+      p{
+        max-width: 400px;
+        margin: 0 auto 50px;
+      }
+      h2{
+        margin-bottom: 50px;
+        @include md{
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+}

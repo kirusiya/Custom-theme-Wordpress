@@ -1,0 +1,275 @@
+/*Misc*/
+.container_estrecho{
+  max-width:850px;
+}
+
+.btn-wrap{
+  margin-top:20px;
+
+  .btn{
+    margin:0;
+    clear:both;
+    img{
+      width: 20px;
+      height: auto;
+      margin-right: 5px;
+    }
+  }
+
+}
+/*Estructura bloques */
+.bloque-interior{
+  padding:30px 0;
+  background-repeat: no-repeat;
+  position:relative;
+
+  h2, h3{
+    margin-top:0;
+    margin-bottom:20px;
+    font-weight: 400;
+  }
+
+  h1{
+    margin-top:0;
+    margin-bottom:30px;
+  }
+
+  ul{
+    margin:0 0 1em 0;
+    list-style-type: none;
+    padding-left: 30px;
+    >li{
+      list-style-type: none;
+      margin:8px 0;
+      position:relative;
+      &:before{
+        content:"";
+        background-color:$mainColor;
+        border-radius:50%;
+        height:5px;
+        width:5px;
+       top:8px;
+        display:block;
+        position: absolute;
+        left:-15px;
+
+      }
+    }
+  }
+
+
+}
+body .no_padding{
+  padding:0;
+}
+
+
+/*Bloque 100% de texto*/
+.bloque-texto100{
+  .container-fluid{
+    width:100%;
+    padding:0;
+    .row{
+      margin:0;
+      .texto-bloque{
+        padding:0;
+        p{
+          margin:0;
+        }
+      }
+    }
+  }
+}
+
+/*Bloque columnas*/
+.cols_separador{
+  .texto-bloque{
+    border-right: solid 1px;
+    &:last-of-type{
+      border:none;
+    }
+  }
+}
+
+
+/*Bloque texto Foto */
+.bloque-texto_foto{
+  padding:0;
+   .contenido-texto-bloque{
+    padding: 30px 15px;
+  }
+
+  .container{
+    padding-top:30px;
+    padding-bottom:30px;
+    .img-bloque{
+      background-image:none!important;
+    }
+  }
+  .container-fluid{
+    max-width:1900px;
+    padding-top:0;
+    padding-bottom:0;
+    .texto-bloque{
+      padding-right:50px;
+      .contenido-texto-bloque {
+        max-width: 545px;
+        width: 100%;
+        display: block;
+      }
+      .btn-wrap{
+        max-width: 545px;
+      }
+    }
+    .img-bloque{
+      padding:0;
+      background-size: cover;
+      min-height:300px;
+      img{
+        width:100%;
+        display:none;
+      }
+    }
+  }
+
+  &.bloque_invertir{
+
+    .wrap_contenido_foto {
+      .texto-bloque {
+        order: 2;
+        padding-left:50px;
+        padding-right:15px;
+      }
+      .img-bloque {
+        order: 1;
+
+      }
+    }
+  }
+}
+
+@media(max-width:991px){
+  .bloque-interior.bloque-texto_foto{
+      justify-content: center;
+      .img-bloque{
+        background-image:none!important;
+        text-align: center;
+        width: 100%;
+        order: 2;
+        min-height:inherit;
+        img{
+          display:block;
+          margin: 0 auto;
+        }
+      }
+      .texto-bloque{
+        padding:15px;
+        .contenido-texto-bloque{
+          padding:0;
+          max-width: inherit;
+        }
+      }
+
+    &.bloque-interior.bloque_invertir{
+        .img-bloque {
+          order:2;
+        }
+        .texto-bloque{
+          order:1;
+          padding:15px;
+        }
+
+    }
+  }
+
+}
+
+/*Slide Custom*/
+
+.bloque-slide-custom {
+  position:relative;
+
+  .tns-inner{
+    z-index:10;
+  }
+  .slide_item_int{
+    position:relative;
+  }
+  .texto_wrap{
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:rgba(255,255,255,.3);
+    padding:30px 0px 50px 0px ;
+    width: 100%;
+    color:$texto;
+  }
+}
+
+/*Carrusel de logos*/
+.tns-nav {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 100;
+  button {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #000;
+    box-shadow: none;
+    margin: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+    &.tns-nav-active, &:hover {
+      background-color: $gris_claro;
+    }
+  }
+}
+.tns-controls{
+
+  button{
+    text-indent: -9999px;
+    width:64px;
+    height:64px;
+    background:transparent;
+    box-shadow:none;
+    border:none;
+    position:absolute;
+    top:50%;
+    transform: translate(-0%, -50%);
+    -webkit-transform: translate(-0%, -50%);
+    &:first-of-type{
+      background-image:url(../images/back.png);
+      left:0;
+    }
+    &:last-of-type{
+      background-image:url(../images/next.png);
+      right:0;
+    }
+  }
+}
+
+/*Bloque iconos*/
+.icono_col{
+  margin-bottom:10px;
+  .img_icono{
+    height: 70px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    img{
+      max-height:100%;
+      width:auto;
+      height:auto;
+    }
+  }
+  .titulo_icono{
+    margin:15px 0;
+    text-align: center;
+
+  }
+
+}

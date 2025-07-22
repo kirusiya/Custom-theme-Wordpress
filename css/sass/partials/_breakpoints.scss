@@ -1,0 +1,76 @@
+/*
+Author: Alejandro Bernardez Araujo
+Para hacer uso de los mixins es tan sencillo como hacer un @include [nombre del breakpoint]{ [estilos css] }
+
+En este ejemplo indicaremos que por defecto las cards tenga un texto alineado al centro pero en resoluciones inferiores a 575.98px se alineará a la izquierda.
+
+.card{
+  text-align: center;
+  @include xs{
+    text-align: right;
+  }
+}
+*/
+
+// Extra small devices (portrait phones, less than 576px)
+@mixin xs {
+  @media (max-width: 575.98px) {
+    @content;
+  }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin sm {
+  @media (max-width: 767.98px) {
+    @content;
+  }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin md {
+  @media (max-width: 991.98px) {
+    @content;
+  }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin lg {
+  @media (max-width: 1199.98px) {
+    @content;
+  }
+}
+
+// Extra Large devices (desktops, less than 1500px)
+@mixin xl {
+  @media (max-width: 1499.98px) {
+    @content;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin min-xs {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin min-sm {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@mixin min-md {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@mixin min-lg {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}

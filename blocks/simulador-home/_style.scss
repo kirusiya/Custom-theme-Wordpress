@@ -1,0 +1,40 @@
+.bloque-simulador-home{
+	width: 100%;
+	background-color: #6c1d45;
+	color: #fff;
+	margin-top: 200px;
+	@include xl{
+		padding: 50px 0;
+		margin-top: 50px;
+	}
+	.container-foto{
+		position: relative;
+		left: 0;
+		top: -25px;
+		@include lg{
+			top: 0;
+		    margin-top: 50px;
+		    text-align: center;
+		    margin-left: 100px;
+		}
+		@include xs{
+			margin-left: 25px;
+		}
+	}
+	.container-texto{
+	    h2{
+	      font-weight: 500;
+	    }
+	}
+	h4{
+		line-height: 1.5;
+		p{
+			margin-bottom: 10px;
+		}
+	}
+	.col-descripcion{
+		@include lg{
+			text-align: center;
+		}
+	}
+}

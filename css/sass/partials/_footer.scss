@@ -1,0 +1,200 @@
+#colophon{
+  background-color: #F0E8EC;
+  color: $gris_oscuro;
+  margin-top: 0;
+  padding: 40px 0 10px 0;
+  position: relative;
+  z-index: 1;
+  @include xs{
+    padding-bottom: 60px;
+  }
+  a{
+    opacity: 1;
+    color: $mainColor;
+    &:hover{
+      color: $mainColor
+    }
+  }
+
+  .col-logos{
+    @include xs{
+      margin-bottom: 40px;
+    }
+    img{
+      display: block;
+      &.logo-cupastone{
+        margin-bottom: 30px;
+      }
+      &.logo-cupagroup{
+        width: 117px;
+      }
+    }
+  }
+
+  .col-enlaces{
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        margin: 0;
+        a{
+          display: block;
+          font-size: 15px;
+          line-height: 19px;
+          text-transform: uppercase;
+          color: #6F1D46;
+          margin-bottom: 15px;
+          padding: 0;
+          font-weight: 400;
+          &:hover{
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .col-redes{
+    @include md{
+      margin-top: 30px;
+    }
+    @include min-md{
+      padding-left: 0;
+    }
+    a{
+      height: 19px;
+      display: block;
+      font-size: 15px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: #6F1D46;
+      margin-bottom: 15px;
+      font-weight: 400;
+      &:hover{
+        color: #000;
+      }
+    }
+  }
+
+  .col-news{
+    @include md{
+      margin-top: 30px;
+    }
+  }
+
+  .col-sep{
+    @include xs{
+      display: none;
+    }
+    hr{
+      background-color: #6C1D45;
+      margin-bottom: 10px;
+    }
+  }
+
+  .col-legal{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    align-items: center;
+    display: flex;
+    @include lg{
+      margin-bottom: 30px;
+    }
+    @include xs{
+      display: block;
+      text-align: center;
+    }
+    p{
+      margin-bottom: 0;
+      line-height: 17px;
+    }
+    ul.navbar-nav{
+      display: inline-block;
+      margin-left: 10px;
+      @include xs{
+        display: block;
+        margin-left: 0;
+      }
+      li{
+        display: inline-block;
+        @include xs{
+          display: block;
+          margin-left: 0;
+          margin-top: 10px;
+        }
+        a{
+          padding-top: 0;
+          padding-bottom: 0;
+          top: 1px;
+          &:hover{
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+
+  .col-certificados{
+    text-align: right;
+    @include xs{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    img{
+      margin-left: 10px;
+      @include xs{
+        margin: 10px;
+      }
+    }
+  }
+
+}
+
+#btn-presupuesto-fixed{
+  background-color: #85B21D;
+  color: #fff;
+  font-size: 18px;
+  line-height: 12px;
+  padding: 28px 24px 50px;
+  position: fixed;
+  right: -130px;
+  top: calc(50% - 41px);
+  z-index: 1;
+  transform: rotate(270deg);
+  text-transform: uppercase;
+  transition: all .3s;
+  width: 320px;
+  text-align: center;
+  &.oculto{
+    right: -300px;
+  }
+  &:hover{
+    right: -120px;
+    box-shadow: 0 -3px 10px 3px rgba(0,0,0,.2);
+  }  
+  .arrow-btn{
+    width: 17px;
+    height: 17px;
+    margin-left: 10px;
+    background-image: url(../images/right-arrow-blanco.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    top: 2px;
+    position: relative;
+  }
+  @include xs{
+    transform: none;
+    padding: 20px 24px;
+    left: 0;
+    right: inherit;
+    top: inherit;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    &.oculto{
+      bottom: -100px;
+    }
+  }
+}

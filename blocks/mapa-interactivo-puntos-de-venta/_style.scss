@@ -1,0 +1,564 @@
+.bloque-mapa-interactivo-puntos-de-venta{
+	height: 85vh;
+    overflow: hidden;
+	border-top: 3px solid #b7b7b7;
+	
+	.colizq{
+		/*border-right: 3px solid #b7b7b7;*/
+		padding: 0;
+
+		.container-puntos-de-venta{
+			max-height: 86vh;
+			overflow-y: scroll;
+			overflow-x: hidden;
+			position: relative;
+
+			.ver-todos{
+				padding: 10px;
+    			text-align: center;
+			}
+
+			.searching{
+				height: 10vh;
+			    width: 100%;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    background-image: url(../images/preloader.gif);
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    position: absolute;
+			    top: 50%;
+			    transform: translate(0,-50%);
+			}
+
+			div[class^=localizacion-]{
+				padding: 20px 10px 20px 40px;
+				/*cursor: pointer;*/
+
+				background: rgba(255,255,255,1);
+				background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+				background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+				background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+				background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+				background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+				background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+				cursor: pointer;
+				transition: all 0.4s ease;
+
+				&:hover{
+					background: unset;
+					background-color: #F0E7EC;
+				}
+
+				.outer{
+					display: flex;
+    				justify-content: space-between;
+
+					.izq{
+						border-left: 4px solid $mainColor;
+					    padding-left: 10px;
+					    padding-top: 5px;
+					    padding-bottom: 5px;
+
+						.titulo{
+							font-size: 20px;
+							text-transform: uppercase;
+    						font-weight: 400;
+    						line-height: 1;
+						}
+
+						.ciudad{
+							font-size: 20px;
+						    text-transform: uppercase;
+						    font-weight: bold;
+						    line-height: 1;
+						}
+
+						.direccion{
+							font-size: 14px;
+						    font-weight: 400;
+						    margin-top: 15px;
+
+							p{
+								margin: 0;
+							}
+						}
+					}
+
+					.der{
+						display: flex;
+    					align-self: flex-end;
+						position: relative;
+						padding-right: 10px;
+						transition: all 0.4s ease;
+
+						&:after{
+							content: "";
+							transition: all 0.4s ease;
+						}
+
+						.email{
+							transition: all 0.4s ease;
+
+							a{}
+
+							&:hover{
+								background-color: #b7b7b75e;
+							}
+						}
+
+						.telefono{
+							transition: all 0.4s ease;
+
+							a{}
+
+							&:hover{
+								background-color: #b7b7b75e;
+							}
+						}
+
+						.fax{
+							transition: all 0.4s ease;
+
+							a{}
+
+							&:hover{
+								background-color: #b7b7b75e;
+							}
+						}
+					}
+				}
+
+				.show-it-on-foreground{
+					display: none;
+				}
+
+				&:not(.primer-plano) {
+					.outer{
+						background-image: none !important;
+					}
+				}
+
+				&.primer-plano{
+					background: unset;
+					background-color: #F0E7EC;
+					min-height: 85vh;
+					padding: 0;
+					cursor: unset;
+					position: relative;
+
+					.show-it-on-foreground{
+						display: inline-block;
+					}
+
+					.hide-it-on-foreground{
+						display: none;
+					}
+
+					.outer{
+						padding: 10%;
+    					padding-bottom: 20px;
+						background-position: center;
+						background-repeat: no-repeat;
+						background-size: cover;
+						position: relative;
+						&:before{
+							content: '';
+							position: absolute;
+							left: 0;
+							top: 0;
+							width: 100%;
+							height: 100%;
+							background: rgba(0,0,0,0.2);
+							background: -moz-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.8) 100%);
+							background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.2)), color-stop(71%, rgba(0,0,0,0.4)), color-stop(100%, rgba(0,0,0,0.8)));
+							background: -webkit-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.8) 100%);
+							background: -o-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.8) 100%);
+							background: -ms-linear-gradient(top, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.8) 100%);
+							background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.4) 71%, rgba(0,0,0,0.8) 100%);
+							filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+						}
+    					.izq{
+    						position: relative;
+    						color: #fff;
+						    border-left: 5px solid #fff;
+						    padding: 0 0 0 18px;
+						    .titulo{
+						    	font-weight: 200;
+						    }
+						    .ciudad{
+						    	font-weight: 500;
+						    }
+						    .direccion{
+						    	font-weight: 200;
+						    }
+    					}
+					}
+
+					.izq{
+						width: 100%;
+					}
+
+					.resto-datos{
+						width: 100%;
+						padding: 40px 0 0;
+
+						h2{
+							text-transform: uppercase;
+						    font-size: 16px;
+						    font-weight: 500;
+						    margin-bottom: 15px;
+						}
+
+						.contacto{
+							padding: 0 13% 40px 13%;
+
+							ul{
+								margin: 0;
+							    padding: 0;
+							    list-style-type: none;
+
+								li{
+									display: flex;
+    								align-items: center;
+									margin: 0;
+									padding-left: 40px;
+									margin-bottom: 10px;
+									position: relative;
+
+									&:before{
+										content: "";
+										width: 20px;
+										height: 20px;
+										position: absolute;
+										left: 0;
+										background-repeat: no-repeat;
+										background-size: contain;
+										background-position: center;
+									}
+
+									&.persona{
+										&:before{
+											background-image: url(../images/persona.png);
+										}
+									}
+
+									&.email{
+										&:before{
+											background-image: url(../images/email.png);
+										}
+									}
+
+									&.telefono-movil{
+										&:before{
+											background-image: url(../images/telefono-movil.png);
+										}
+									}
+
+									&.telefono-fijo{
+										&:before{
+											background-image: url(../images/telefono.png);
+										}
+									}
+
+									&.fax{
+										&:before{
+											background-image: url(../images/fax.png);
+										}
+									}
+								}
+							}
+						}
+
+						.horario{
+							padding: 0 13% 10px 13%;
+
+							ul{
+								margin: 0;
+    							padding: 0;
+
+								li{
+									display: flex;
+    								align-items: center;
+									margin: 0;
+									padding-left: 40px;
+									margin-bottom: 10px;
+									position: relative;
+
+									&:before{
+										content: "";
+										width: 20px;
+										height: 20px;
+										position: absolute;
+										left: 0;
+										background-repeat: no-repeat;
+										background-size: contain;
+									}
+
+									&.horario{
+										&:before{
+											background-image: url(../images/time.png);
+											top: 3px;
+										}
+									}
+								}
+							}
+						}
+
+						.contactar{
+							padding: 0 13% 10px 13%;
+							.boton-cupa-blanco{
+								padding-top: 20px;
+								padding-bottom: 20px;
+							}
+						}
+
+						.aspa-abajo{
+							padding-top: 10px;
+						    padding-bottom: 40px;
+						    text-align: center;
+
+						    img{
+						    	opacity: 1;
+						    	cursor: pointer;
+						    	transition: all 0.4s ease;
+
+						    	&:hover{
+						    		opacity: 0.7;
+						    	}
+						    }
+						}
+
+						.descripcion{
+							padding: 0 10% 40px 10%;
+							h4{
+								margin-bottom: 1.5rem;
+							}
+						}
+
+						.imagenes{
+							overflow: hidden;
+							display: flex;
+
+							.div-ampliar{
+								width: 33.3333%;
+								float: left;
+								cursor: pointer;
+								display: flex;
+							    align-items: center;
+							    justify-content: center;
+								&:hover{
+									opacity: .85;
+								}
+								
+								img{
+									min-width: 100%;
+								    min-height: 100%;
+								    object-fit: cover;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			/* vertical scrollbar */
+			&::-webkit-scrollbar {
+			  width: 5px;
+			}
+
+			&::-webkit-scrollbar-track {
+			  background: #f1f1f1; 
+			}
+			 
+			&::-webkit-scrollbar-thumb {
+			  background: $mainColor; 
+			}
+
+			&::-webkit-scrollbar-thumb:hover {
+			  background: #555; 
+			}
+
+			.close-loc{
+				display: none;
+				align-items: center;
+			    justify-content: center;
+			    font-size: 100px;
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				top: 30px;
+				right: 30px;
+				transform: rotate(45deg);
+				z-index: 1;
+				cursor: pointer;
+				transition: all 0.5s ease;
+				font-weight: 100;
+    			color: #fff;
+
+				&:hover{
+					transform: rotate(405deg);
+				}
+			}
+		}
+	}
+
+	.colder{
+		padding: 0;
+
+		.cupastone-map{
+			width: 100%;
+		    height: 85vh;
+		    border: #ccc solid 1px;
+		    display: flex;
+    		align-items: center;
+		    
+		    img{
+		    	max-width: inherit !important;
+		    }
+
+		    .searching{
+				height: 10vh;
+			    width: 100%;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    background-image: url(../images/preloader.gif);
+			    background-position: center;
+			    background-repeat: no-repeat;
+			}
+
+			.gm-style-iw{
+				>button{
+					top: -5px !important;
+					right: 2px !important;
+					img{
+						width: 20px !important;
+						height: 20px !important;
+					}
+				}
+				.marker-html{
+					.email{
+						position: relative;
+						line-height: 20px;
+						&:before{
+							content: "";
+						    background-image: url(../images/email.png);
+						    position: absolute;
+						    left: 0;
+						    width: 20px;
+						    height: 20px;
+						    background-repeat: no-repeat;
+						    background-size: contain;
+						    background-position: center;
+						}
+						a{
+							padding-left: 25px;
+						}
+					}
+					.telefono{
+						position: relative;
+						line-height: 20px;
+						&:before{
+							content: "";
+						    background-image: url(../images/telefono.png);
+						    position: absolute;
+						    left: 0;
+						    width: 20px;
+						    height: 20px;
+						    background-repeat: no-repeat;
+						    background-size: contain;
+						    background-position: center;
+						}
+						a{
+							padding-left: 25px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media(max-width:1400px){
+	.bloque-mapa-interactivo-puntos-de-venta{
+		height: 80vh;
+
+		.colizq .container-puntos-de-venta {
+			height: 80vh;
+
+			div[class^=localizacion-].primer-plano .resto-datos{
+				padding: 10px 0;
+				padding-bottom: 0;
+
+				.contacto{
+					padding: 0 10% 10px 10%;
+				}
+
+				.horario{
+					padding: 0 10% 0px 10%;
+					ul{
+						li{
+							font-size: 12px;
+						}
+					}
+				}
+
+				.aspa-abajo{
+					padding-top: 5px;
+				}
+			}
+		}
+
+		.colder .cupastone-map{
+			height: 80vh;
+		}
+	}
+}
+
+
+@media(max-width:768px){
+	.bloque-mapa-interactivo-puntos-de-venta{
+		height: 120vh;
+		.colizq{
+			flex: 0 0 100%;
+		    max-width: 100%;
+		    height: 60vh;
+		    overflow: hidden;
+
+		    .container-puntos-de-venta{
+		    	height: 60vh;
+
+		    	div[class^=localizacion-]{
+		    		padding: 10px 10px 10px 20px;
+
+		    		&.primer-plano{
+		    			.outer{
+		    				padding: 20px;
+		    			}
+		    			.resto-datos{
+		    				.contacto{
+		    					padding: 10px 20px;
+		    				}
+		    				.horario{
+		    					padding: 10px 20px;
+		    				}
+		    				.descripcion{
+		    					padding: 10px 20px;
+		    				}
+		    			}
+		    		}
+		    	}
+		    }
+		}
+
+		.colder{
+			flex: 0 0 100%;
+		    max-width: 100%;
+		    height: 80vh;
+		}
+	}
+}

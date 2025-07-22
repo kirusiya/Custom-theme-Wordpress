@@ -1,0 +1,256 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-10-16 10:59+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2"
+
+msgid " ® Todos los derechos reservados"
+msgstr "® Todos os direitos reservados"
+
+msgid "<span>Piedra</span> <span>Natural</span>"
+msgstr "<span>Pedra</span> <span>Natural</span>"
+
+msgid "Acabado"
+msgstr "Acabamento"
+
+msgid "Acabado:"
+msgstr "Acabamento:"
+
+msgid "Acceso no permitido."
+msgstr "Acesso negado."
+
+msgid "Acceso No Permitido. No tiene permiso para acceder a esta sección."
+msgstr "Acesso negado. Você não tem permissão para acessar esta seção."
+
+msgid "Anterior"
+msgstr "Anterior"
+
+msgid "Aplicación"
+msgstr "Aplicaçao"
+
+msgid "Aplicación:"
+msgstr "Aplicaçao:"
+
+msgid "Asistir"
+msgstr "Ajudar"
+
+msgid "Año"
+msgstr "Ano"
+
+msgid "Buscar"
+msgstr "Procurar"
+
+msgid "Color"
+msgstr "Cor"
+
+msgid "Color principal:"
+msgstr "Cor principal:"
+
+msgid "Compartir artículo"
+msgstr "Compartilhar artigo"
+
+msgid "Contacta"
+msgstr "Contato"
+
+msgid "Contacto"
+msgstr "Contato"
+
+msgid "Contáctanos"
+msgstr "Contate-Nos"
+
+msgid "CUÁNDO: "
+msgstr "QUANDO:"
+
+msgid "Diseño"
+msgstr "Design"
+
+msgid "DÓNDE: "
+msgstr "ONDE:"
+
+msgid "Empresa constructora"
+msgstr "Construtora"
+
+msgid "Error <span>404</span>"
+msgstr "Erro <span>404</span>"
+
+msgid "Espacio"
+msgstr "Espaço"
+
+msgid "Espacios:"
+msgstr "Espaços"
+
+msgid "Etiquetas"
+msgstr "Etiquetas"
+
+msgid "Ficha técnica:"
+msgstr "Ficha técnica:"
+
+msgid "Formatos:"
+msgstr "Formatos"
+
+msgid "Fotografías"
+msgstr "Fotografias"
+
+msgid "Galería"
+msgstr "Galeria"
+
+msgid "Gama"
+msgstr "Gama"
+
+msgid "GAMA COMPLETA"
+msgstr "GAMA COMPLETA"
+
+msgid "Gama:"
+msgstr "Gama:"
+
+msgid "Gama: "
+msgstr "Gama:"
+
+msgid "Horario"
+msgstr "Horario"
+
+msgid "Imagen"
+msgstr "Imagem"
+
+msgid "Inicio"
+msgstr "Começo"
+
+msgid "Intenta iniciar sesión primero."
+msgstr "Tente fazer login primeiro"
+
+msgid "Intente buscarla de nuevo"
+msgstr "Tente olhar para ele novamente"
+
+msgid "Interiorista"
+msgstr "Designer de interiores"
+
+msgid "Introduce tu ciudad"
+msgstr "Digite sua cidade"
+
+msgid "La página que está buscando no existe"
+msgstr "A página que você está procurando não existe"
+
+msgid "Limpiar filtros"
+msgstr "Limpar filtros"
+
+msgid "Lo sentimos, no hemos encontrada nada, prueba una nueva búsqueda."
+msgstr "não encontramos nada, tente uma nova pesquisa."
+
+msgid "Localización"
+msgstr "Localização"
+
+msgid "Lugar"
+msgstr "Localização"
+
+msgid "Mapa Puntos de venta"
+msgstr "Mapa Pontos de venda"
+
+msgid "Material"
+msgstr "Material"
+
+msgid ""
+"No existen productos con los filtros que has seleccionado.<br><br>¿Necesitas "
+"ayuda?"
+msgstr ""
+"Não há produtos com os filtros selecionados.<br><br>Precisa de ajuda? CONTATO"
+
+msgid "No hay FAQs en este momento."
+msgstr "Não há FAQs no momento."
+
+msgid "Opciones:"
+msgstr "Opçoes:"
+
+msgid "Origen:"
+msgstr "Origem:"
+
+msgid "Pide presupuesto"
+msgstr "Peça um orzamento"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Producto"
+msgstr "Produto"
+
+msgid "Producto<br><b>utilizado</b>"
+msgstr "Produto<br><b>usado</b>"
+
+msgid "Productos"
+msgstr "Produtos"
+
+msgid "productos"
+msgstr "produtos"
+
+msgid "Proyecto"
+msgstr "Projeto"
+
+msgid "Proyectos"
+msgstr "Projetos"
+
+msgid "proyectos"
+msgstr "projetos"
+
+msgid "Sin resultados para "
+msgstr "Sem resultados para"
+
+msgid "Stonepanel Sylvestre"
+msgstr "Stonepanel Sylvestre"
+
+msgid "Toda la gama completa de STONEPANEL<sup>®</sup>"
+msgstr "A gama complete de Stonepanel<sup>®</sup>"
+
+msgid "Ver aplicación"
+msgstr "Ver aplicaçao"
+
+msgid "Ver espacio"
+msgstr "Ver espaço"
+
+msgid "Ver ficha"
+msgstr "Ver arquivo"
+
+msgid "Ver galería"
+msgstr "Ver galería"
+
+msgid "Ver gama"
+msgstr "Ver gama"
+
+msgid "Ver menos"
+msgstr "Ver menos"
+
+msgid "Ver más"
+msgstr "Ver mais"
+
+msgid "VER PRODUCTO"
+msgstr "VER PRODUTO"
+
+msgid "Ver Productos"
+msgstr "Ver Produtos"
+
+msgid "Ver todas"
+msgstr "Ver tudo"
+
+msgid "Ver todo"
+msgstr ""
+"\n"
+"Ver tudo"
+
+msgid "Ver todo sobre"
+msgstr "Veja tudo sobre"
+
+msgid "Volver"
+msgstr "Retorna"
+
+msgid "Últimas noticias"
+msgstr "Últimas notícias"

@@ -1,0 +1,255 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-09-28 15:34+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+msgid " ® Todos los derechos reservados"
+msgstr "® Tous droits réservés"
+
+msgid "<span>Piedra</span> <span>Natural</span>"
+msgstr "<span>Pierre</span> <span>Naturelle</span>"
+
+msgid "Acabado"
+msgstr "Finition"
+
+msgid "Acabado:"
+msgstr "Finition:"
+
+msgid "Acceso no permitido."
+msgstr "Accès refusé."
+
+msgid "Acceso No Permitido. No tiene permiso para acceder a esta sección."
+msgstr "Accès refusé. Vous n'êtes pas autorisé à accéder à cette section."
+
+msgid "Anterior"
+msgstr "Précédente"
+
+msgid "Aplicación"
+msgstr "Application"
+
+msgid "Aplicación:"
+msgstr "Application:"
+
+msgid "Asistir"
+msgstr "Aider"
+
+msgid "Año"
+msgstr "Anné"
+
+msgid "Buscar"
+msgstr "Rechercher"
+
+msgid "Color"
+msgstr "Couleur"
+
+msgid "Color principal:"
+msgstr "Couleur principale"
+
+msgid "Compartir artículo"
+msgstr "Partager l'article"
+
+msgid "Contacta"
+msgstr "Contact"
+
+msgid "Contacto"
+msgstr "Contact"
+
+msgid "Contáctanos"
+msgstr "Contactez-nous"
+
+msgid "CUÁNDO: "
+msgstr "QUAND:"
+
+msgid "Diseño"
+msgstr "Design"
+
+msgid "DÓNDE: "
+msgstr "OÙ:"
+
+msgid "Empresa constructora"
+msgstr "Entreprise de construction"
+
+msgid "Error <span>404</span>"
+msgstr "Erreur <span>404</span>"
+
+msgid "Espacio"
+msgstr "Espace"
+
+msgid "Espacios:"
+msgstr "Espaces"
+
+msgid "Etiquetas"
+msgstr "Étiquettes"
+
+msgid "Ficha técnica:"
+msgstr "Fiche technique:"
+
+msgid "Formatos:"
+msgstr "Format:"
+
+msgid "Fotografías"
+msgstr "Photographies"
+
+msgid "Galería"
+msgstr "Galerie"
+
+msgid "Gama"
+msgstr "Gamme"
+
+msgid "GAMA COMPLETA"
+msgstr "GAMME COMPLÈTE"
+
+msgid "Gama:"
+msgstr "Gamme:"
+
+msgid "Gama: "
+msgstr "Gamme:"
+
+msgid "Horario"
+msgstr "Horaire"
+
+msgid "Imagen"
+msgstr "Image"
+
+msgid "Inicio"
+msgstr "Début"
+
+msgid "Intenta iniciar sesión primero."
+msgstr "Essayez d'abord de vous connecter"
+
+msgid "Intente buscarla de nuevo"
+msgstr "Essayez de le chercher à nouveau"
+
+msgid "Interiorista"
+msgstr "Architecte d’intérieur"
+
+msgid "Introduce tu ciudad"
+msgstr "Entrez votre ville"
+
+msgid "La página que está buscando no existe"
+msgstr "La page que vous recherchez n'existe pas"
+
+msgid "Limpiar filtros"
+msgstr "Nettoyer les filtres"
+
+msgid "Lo sentimos, no hemos encontrada nada, prueba una nueva búsqueda."
+msgstr "Désolé, nous n'avons rien trouvé, essayez une nouvelle recherche."
+
+msgid "Localización"
+msgstr "Emplacement"
+
+msgid "Lugar"
+msgstr "Lieu"
+
+msgid "Mapa Puntos de venta"
+msgstr "Carte Points de Vente"
+
+msgid "Material"
+msgstr "Matériel"
+
+msgid ""
+"No existen productos con los filtros que has seleccionado.<br><br>¿Necesitas "
+"ayuda?"
+msgstr ""
+"Il n`y a aucun produit avec les filtres que vous avez sélectionnés.<br><br>"
+"Tu as besoin d`aide? CONTACTEZ"
+
+msgid "No hay FAQs en este momento."
+msgstr "Il n'y a pas de FAQ pour le moment."
+
+msgid "Opciones:"
+msgstr "Options"
+
+msgid "Origen:"
+msgstr "Origine:"
+
+msgid "Pide presupuesto"
+msgstr "Demandez votre devis"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Producto"
+msgstr "Produit"
+
+msgid "Producto<br><b>utilizado</b>"
+msgstr "Produit<br><b>utilisé</b>"
+
+msgid "Productos"
+msgstr "Produits"
+
+msgid "productos"
+msgstr "produits"
+
+msgid "Proyecto"
+msgstr "Projet"
+
+msgid "Proyectos"
+msgstr "Projets"
+
+msgid "proyectos"
+msgstr "projets"
+
+msgid "Sin resultados para "
+msgstr "Aucun résultat pour"
+
+msgid "Stonepanel Sylvestre"
+msgstr "Stonepanel Sylvestre"
+
+msgid "Toda la gama completa de STONEPANEL<sup>®</sup>"
+msgstr "La gamme complète de STONEPANEL<sup>®</sup>"
+
+msgid "Ver aplicación"
+msgstr "Voir application"
+
+msgid "Ver espacio"
+msgstr "Voir espace"
+
+msgid "Ver ficha"
+msgstr "Voir fiche"
+
+msgid "Ver galería"
+msgstr "Voir galerie"
+
+msgid "Ver gama"
+msgstr "Voir gamme"
+
+msgid "Ver menos"
+msgstr "Voir moins"
+
+msgid "Ver más"
+msgstr "Voir plus"
+
+msgid "VER PRODUCTO"
+msgstr "VOIR PRODUIT"
+
+msgid "Ver Productos"
+msgstr "Voir Produits"
+
+msgid "Ver todas"
+msgstr "Voir toutes"
+
+msgid "Ver todo"
+msgstr "Voir plus"
+
+msgid "Ver todo sobre"
+msgstr "Voir plus sur"
+
+msgid "Volver"
+msgstr "Retourner"
+
+msgid "Últimas noticias"
+msgstr "Actualités"

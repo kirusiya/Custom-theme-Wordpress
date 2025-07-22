@@ -1,0 +1,166 @@
+.bloque-aplicaciones-y-espacios{
+	padding-top: 20px;
+    padding-bottom: 40px;
+
+    .copy{
+    	font-size: 22px;
+    }
+	
+	.container-custom-2{
+		display: flex;
+	    align-items: flex-start;
+	    justify-content: space-between;
+
+		.my-tax{
+			flex: 0 0 49%;
+			min-height: 400px;
+
+			&.showData{
+				.inner{
+					.velo-tax, .izq, .der{
+						opacity: 1;
+					}
+				}
+			}
+
+			h2{
+				font-size: 40px;
+			    text-transform: uppercase;
+			    font-weight: 200;
+			}
+
+			.inner{
+				display: flex;
+			    align-items: center;
+			    justify-content: center;
+				min-height: 400px;
+				background-position: center;
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			    position: relative;
+
+			    .velo-tax{
+					opacity: 0;
+				    position: absolute;
+				    z-index: 1;
+				    top: 0;
+				    left: 0;
+				    min-height: 100%;
+				    width: 100%;
+				    background-color: rgba(243, 109, 109, 0.30);
+				    transition: all 0.4s ease;				    
+				}
+
+				.izq{
+					opacity: 0;
+					display: flex;
+    				align-items: center;
+    				justify-content: center;
+					flex: 0 0 60%;
+					min-height: 100%;
+					position: relative;
+					z-index: 2;					
+					padding: 40px;
+				    color: #FFF;
+				    font-size: 18px;
+				    font-weight: 500;
+				    border-right: 1px solid #FFF;
+				    transition: all 0.4s ease;
+				}
+
+				.der{
+					opacity: 0;
+					display: flex;
+    				align-items: center;
+    				justify-content: center;
+					flex: 0 0 40%;
+					min-height: 100%;
+					position: relative;
+					z-index: 2;
+					transition: all 0.4s ease;
+
+					ul{
+						padding: 0;
+					    margin: 0;
+					    list-style-type: none;
+
+						li{
+							font-size: 20px;
+							margin: 10px 5px;
+						    color: #FFF;
+						    font-weight: 500;
+						    text-transform: uppercase;
+						    cursor: unset;
+						    text-decoration: unset;
+						    
+						    &:hover{
+						    	cursor: pointer;
+						    	text-decoration: underline;
+						    }
+						}
+					}
+				}
+			}
+
+			&:hover{
+
+				.inner{
+					
+					.velo-tax, .izq, .der{
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media(max-width:1024px){
+	.bloque-aplicaciones-y-espacios{
+		.container-custom-2{
+			flex-direction: column;
+			.my-tax{
+				flex: 0 0 100%;
+				&:first-child{
+					margin-bottom: 40px;
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:768px){
+	.bloque-aplicaciones-y-espacios .container-custom-2 {
+		.my-tax {
+			transition: all 1.5s ease;
+			.inner {
+				.izq{
+					font-size: 20px;
+				}
+				.der{
+					ul{
+						li{
+							font-size: 20px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media(max-width:480px){
+	.bloque-aplicaciones-y-espacios .container-custom-2 .my-tax .inner {
+		.izq{
+			font-size: 18px;
+		}
+		.der{
+			ul{
+				li{
+					font-size: 16px;
+				}
+			}
+		}
+	}
+}

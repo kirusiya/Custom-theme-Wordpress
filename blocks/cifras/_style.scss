@@ -1,0 +1,68 @@
+.bloque-cifras{
+	padding: 30px 0;
+
+	h2{
+		text-align: center;
+	    font-size: 36px;
+	    margin-bottom: 60px;
+	}
+
+	.container-custom{
+		display: flex;
+	    justify-content: space-around;
+	    flex-wrap: wrap;
+	    max-width: 1800px;
+
+		div[class^=cifra-]{
+			min-height: 150px;
+			display: flex;
+			align-items: center;
+    		flex-direction: column;
+    		justify-content: space-between;
+    
+			.numero{
+				border-left: 5px solid $mainColor;			
+				font-size: 50px;
+    			font-weight: 200;
+    			padding-left: 20px;
+    			color: $mainColor;
+    			margin-bottom: 10px;
+    			transition: all 0.3s ease;
+			}
+
+			.texto{
+				height: 100%;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+				font-size: 20px;
+			    max-width: 215px;
+			    font-weight: 300;
+			    text-transform: uppercase;
+			}
+		}
+	}
+}
+
+@media(max-width: 1024px){
+	.bloque-cifras .container-custom div[class^=cifra-]{
+		flex: 0 0 33.3333%;
+		margin-bottom: 40px;
+	}
+}
+
+@media(max-width: 768px){
+	.bloque-cifras .container-custom div[class^=cifra-]{
+		flex: 0 0 50%;
+		align-items: center;
+		.texto{
+			max-width: unset;
+		}
+	}
+}
+
+@media(max-width: 480px){
+	.bloque-cifras .container-custom div[class^=cifra-]{
+		flex: 0 0 100%;		
+	}
+}

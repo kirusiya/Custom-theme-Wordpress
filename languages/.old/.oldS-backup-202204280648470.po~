@@ -1,0 +1,240 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-04-27 08:45+0000\n"
+"Last-Translator: Desarrollador\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+msgid " ® Todos los derechos reservados"
+msgstr "® All rights reserved"
+
+msgid "<span>Piedra</span> <span>Natural</span>"
+msgstr "<span>Natural</span> <span>Stone</span>"
+
+msgid "Acabado"
+msgstr "Finish"
+
+msgid "Acabado:"
+msgstr "Finish:"
+
+msgid "Acceso no permitido."
+msgstr "Access denied."
+
+msgid "Acceso No Permitido. No tiene permiso para acceder a esta sección."
+msgstr "Access denied. You do not have permission to access this section."
+
+msgid "Anterior"
+msgstr "Previous"
+
+msgid "Aplicación"
+msgstr "Application"
+
+msgid "Aplicación:"
+msgstr "Application:"
+
+msgid "Asistir"
+msgstr "Help"
+
+msgid "Año"
+msgstr "Year"
+
+msgid "Buscar"
+msgstr "Search"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Color principal:"
+msgstr "Main colour"
+
+msgid "Compartir artículo"
+msgstr "Share article"
+
+msgid "Contacta"
+msgstr "Contact"
+
+msgid "Contacto"
+msgstr "contact"
+
+msgid "Contáctanos"
+msgstr "Contact us"
+
+msgid "CUÁNDO: "
+msgstr "WHEN:"
+
+msgid "Diseño"
+msgstr "Design"
+
+msgid "DÓNDE: "
+msgstr "WHERE:"
+
+msgid "Error <span>404</span>"
+msgstr "Error <span>404</span>"
+
+msgid "Espacio"
+msgstr "Space"
+
+msgid "Espacios:"
+msgstr "Spaces"
+
+msgid "Ficha técnica:"
+msgstr "Data Sheet:"
+
+msgid "Formatos:"
+msgstr "Format"
+
+msgid "Galería"
+msgstr "Gallery"
+
+msgid "Gama"
+msgstr "Collection"
+
+msgid "GAMA COMPLETA"
+msgstr "FULL RANGE"
+
+msgid "Gama:"
+msgstr "Collection:"
+
+msgid "Gama: "
+msgstr "Collection:"
+
+msgid "Horario"
+msgstr "Schedule"
+
+msgid "Imagen"
+msgstr "Image"
+
+msgid "Inicio"
+msgstr "Home"
+
+msgid "Intenta iniciar sesión primero."
+msgstr "Try login first"
+
+msgid "Intente buscarla de nuevo"
+msgstr "Try looking for it again"
+
+msgid "Introduce tu ciudad"
+msgstr "Introduce your city"
+
+msgid "La página que está buscando no existe"
+msgstr "The page you are looking for no longer exists"
+
+msgid "Limpiar filtros"
+msgstr ""
+
+msgid "Lo sentimos, no hemos encontrada nada, prueba una nueva búsqueda."
+msgstr "Sorry, we haven't found anything, try a new search."
+
+msgid "Localización"
+msgstr ""
+
+msgid "Lugar"
+msgstr "Location"
+
+msgid "Mapa Puntos de venta"
+msgstr "Map Stores"
+
+msgid "Material"
+msgstr "Material"
+
+msgid ""
+"No existen productos con los filtros que has seleccionado.<br><br>¿Necesitas "
+"ayuda?"
+msgstr ""
+"There are no products with the filters you have selected.<br><br>Need help? "
+"CONTACT"
+
+msgid "No hay FAQs en este momento."
+msgstr "There are no FAQs at this time."
+
+msgid "Opciones:"
+msgstr "Options"
+
+msgid "Origen:"
+msgstr ""
+
+msgid "Pide presupuesto"
+msgstr "Request a quote"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Producto"
+msgstr "Product"
+
+msgid "Producto<br><b>utilizado</b>"
+msgstr "Product<br><b>used</b>"
+
+msgid "Productos"
+msgstr "Products"
+
+msgid "productos"
+msgstr "products"
+
+msgid "Proyecto"
+msgstr "Project"
+
+msgid "Proyectos"
+msgstr "Projets"
+
+msgid "proyectos"
+msgstr "projets"
+
+msgid "Sin resultados para "
+msgstr "No results for"
+
+msgid "Stonepanel Sylvestre"
+msgstr "Stonepanel Sylvestre"
+
+msgid "Toda la gama completa de STONEPANEL<sup>®</sup>"
+msgstr "Full range of Stonepanel<sup>®</sup>"
+
+msgid "Ver aplicación"
+msgstr "See aplication"
+
+msgid "Ver espacio"
+msgstr "See space"
+
+msgid "Ver ficha"
+msgstr "See file"
+
+msgid "Ver galería"
+msgstr "See gallery"
+
+msgid "Ver gama"
+msgstr "See range"
+
+msgid "Ver menos"
+msgstr "See less"
+
+msgid "Ver más"
+msgstr "See more"
+
+msgid "VER PRODUCTO"
+msgstr "SEE PRODUCT"
+
+msgid "Ver todas"
+msgstr "See all"
+
+msgid "Ver todo"
+msgstr ""
+
+msgid "Ver todo sobre"
+msgstr ""
+
+msgid "Volver"
+msgstr "Return"
+
+msgid "Últimas noticias"
+msgstr ""

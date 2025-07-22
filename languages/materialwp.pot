@@ -1,0 +1,247 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+msgid " ® Todos los derechos reservados"
+msgstr ""
+
+msgid "<span>Piedra</span> <span>Natural</span>"
+msgstr ""
+
+msgid "Acabado"
+msgstr ""
+
+msgid "Acabado:"
+msgstr ""
+
+msgid "Acceso no permitido."
+msgstr ""
+
+msgid "Acceso No Permitido. No tiene permiso para acceder a esta sección."
+msgstr ""
+
+msgid "Anterior"
+msgstr ""
+
+msgid "Aplicación"
+msgstr ""
+
+msgid "Aplicación:"
+msgstr ""
+
+msgid "Asistir"
+msgstr ""
+
+msgid "Año"
+msgstr ""
+
+msgid "Buscar"
+msgstr ""
+
+msgid "Color"
+msgstr ""
+
+msgid "Color principal:"
+msgstr ""
+
+msgid "Compartir artículo"
+msgstr ""
+
+msgid "Contacta"
+msgstr ""
+
+msgid "Contacto"
+msgstr ""
+
+msgid "Contáctanos"
+msgstr ""
+
+msgid "CUÁNDO: "
+msgstr ""
+
+msgid "Diseño"
+msgstr ""
+
+msgid "DÓNDE: "
+msgstr ""
+
+msgid "Empresa constructora"
+msgstr ""
+
+msgid "Error <span>404</span>"
+msgstr ""
+
+msgid "Espacio"
+msgstr ""
+
+msgid "Espacios:"
+msgstr ""
+
+msgid "Etiquetas"
+msgstr ""
+
+msgid "Ficha técnica:"
+msgstr ""
+
+msgid "Formatos:"
+msgstr ""
+
+msgid "Fotografías"
+msgstr ""
+
+msgid "Galería"
+msgstr ""
+
+msgid "Gama"
+msgstr ""
+
+msgid "GAMA COMPLETA"
+msgstr ""
+
+msgid "Gama:"
+msgstr ""
+
+msgid "Gama: "
+msgstr ""
+
+msgid "Horario"
+msgstr ""
+
+msgid "Imagen"
+msgstr ""
+
+msgid "Inicio"
+msgstr ""
+
+msgid "Intenta iniciar sesión primero."
+msgstr ""
+
+msgid "Intente buscarla de nuevo"
+msgstr ""
+
+msgid "Interiorista"
+msgstr ""
+
+msgid "Introduce tu ciudad"
+msgstr ""
+
+msgid "La página que está buscando no existe"
+msgstr ""
+
+msgid "Limpiar filtros"
+msgstr ""
+
+msgid "Lo sentimos, no hemos encontrada nada, prueba una nueva búsqueda."
+msgstr ""
+
+msgid "Localización"
+msgstr ""
+
+msgid "Lugar"
+msgstr ""
+
+msgid "Mapa Puntos de venta"
+msgstr ""
+
+msgid "Material"
+msgstr ""
+
+msgid "No existen productos con los filtros que has seleccionado.<br><br>¿Necesitas ayuda?"
+msgstr ""
+
+msgid "No hay FAQs en este momento."
+msgstr ""
+
+msgid "Opciones:"
+msgstr ""
+
+msgid "Origen:"
+msgstr ""
+
+msgid "Pide presupuesto"
+msgstr ""
+
+msgid "Premium"
+msgstr ""
+
+msgid "Producto"
+msgstr ""
+
+msgid "Producto<br><b>utilizado</b>"
+msgstr ""
+
+msgid "productos"
+msgstr ""
+
+msgid "Productos"
+msgstr ""
+
+msgid "Proyecto"
+msgstr ""
+
+msgid "proyectos"
+msgstr ""
+
+msgid "Proyectos"
+msgstr ""
+
+msgid "Sin resultados para "
+msgstr ""
+
+msgid "Stonepanel Sylvestre"
+msgstr ""
+
+msgid "Toda la gama completa de STONEPANEL<sup>®</sup>"
+msgstr ""
+
+msgid "Últimas noticias"
+msgstr ""
+
+msgid "Ver aplicación"
+msgstr ""
+
+msgid "Ver espacio"
+msgstr ""
+
+msgid "Ver ficha"
+msgstr ""
+
+msgid "Ver galería"
+msgstr ""
+
+msgid "Ver gama"
+msgstr ""
+
+msgid "Ver menos"
+msgstr ""
+
+msgid "Ver más"
+msgstr ""
+
+msgid "VER PRODUCTO"
+msgstr ""
+
+msgid "Ver Productos"
+msgstr ""
+
+msgid "Ver todas"
+msgstr ""
+
+msgid "Ver todo"
+msgstr ""
+
+msgid "Ver todo sobre"
+msgstr ""
+
+msgid "Volver"
+msgstr ""

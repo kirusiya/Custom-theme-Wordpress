@@ -1,0 +1,255 @@
+.filtros-productos{
+	background-color: #ececec;
+
+	.all-selects{
+		display: flex;
+    	align-items: center;
+
+		.container-select{
+			flex: 0 0 16.66%;
+			text-align: center;
+			transition: all 0.4s ease;
+
+			&.active{
+			    background-color: $mainColor;
+
+			    select{
+			    	background: url(../images/arrow-down-white.png) no-repeat;
+			    	background-size: 20px 20px;
+    				background-position: 90% center;
+			    	color: #FFF;
+
+			    	option{
+			    		color: #000;
+			    	}
+			    }
+
+			    &:hover{
+					background-color: $mainColor;
+				}
+			}
+
+			&:hover{
+				background-color: #FFF;
+			}
+
+			select{
+				width: 100%;
+				border: none;
+			    text-transform: uppercase;
+			    font-weight: 500;
+			    outline: none;
+			    background-color: transparent;
+			    padding: 15px 20px;
+			    cursor: pointer;
+			    appearance: none;
+  				-moz-appearance: none;
+  				-webkit-appearance: none;
+  				background: url(../images/arrow-down.png) no-repeat;
+			    background-size: 20px 20px;
+			    background-position: 90% center;
+			}
+		}
+	}
+}
+
+.filters-used{
+	
+	.all-filters{
+		display: flex;
+	    align-items: center;
+	    flex-wrap: wrap;
+	    padding: 30px 0;
+    	min-height: 60px;
+
+		.filter{
+			margin-right: 10px;
+			margin-bottom: 10px;
+		    padding: 5px;
+		    position: relative;
+		    padding-left: 30px;
+		    padding-right: 10px;
+		    text-transform: capitalize;
+			font-weight: 600;
+		    background-color: $mainColor;
+		    color: #FFF;
+		    font-size: 14px;
+
+			div.close{
+				transform: rotate(45deg);
+			    font-size: 30px;
+			    position: absolute;
+			    left: 4px;
+			    top: 2px;
+			    cursor: pointer;
+			    color: #FFF;
+			}
+		}
+
+		.clean-filters{
+			display: none;
+			position: relative;
+    		top: -5px;
+		}
+	}
+}
+
+.posts-productos{
+	
+	.posts{
+		display: flex;
+		flex-wrap: wrap;
+		margin-bottom: 30px;
+		/*justify-content: space-between;*/
+		min-height: 100px;
+
+		div[class^=producto-]{
+			flex: 0 0 25%;
+			height: auto;
+			margin-bottom: 40px;
+			float: left;
+			/*margin-right: 10px;*/
+			opacity: 1;
+			transition: opacity 0.4s ease;
+
+			&:hover{
+				opacity: 0.8;
+			}
+
+			&:nth-child(4n){
+				margin-right: 0px;
+			}
+
+			&:before{
+				content: '';
+			    float: left;
+			    padding-top: 100%;
+			}
+
+			.inner{
+				margin: 0 10px;
+
+				.imagen-producto{
+				    aspect-ratio: 1;
+				    display: flex;
+				    align-items: center;
+				    justify-content: center;
+				    img{
+				    	width: 100%;
+					    height: 100%;
+					    object-fit: cover;
+				    }
+				}
+
+				.titulo-producto{
+					text-align: center;
+				    font-size: 16px;
+				    text-transform: uppercase;
+				    font-weight: 500;
+				    margin-top: 10px;
+				}
+			}
+		}
+
+		.searching{
+			height: 100px;
+		    width: 100%;
+		    display: flex;
+		    align-items: center;
+		    justify-content: center;
+		    background-image: url(../images/preloader.gif);
+		    background-position: center;
+		    background-repeat: no-repeat;
+		}
+
+		.no-results{
+			width: 100%;
+		    font-weight: 600;
+		    text-align: center;
+		    padding-top: 20px;
+
+		    .boton-cupa-granate{
+		    	padding-top: 20px;
+		    }
+		}
+	}
+	&.posts-proyectos{
+		.imagen-producto{
+		    aspect-ratio: 1;
+		    display: flex;
+		    overflow: hidden;
+		    align-items: center;
+		    justify-content: center;
+		    width: 100%;
+		    height: 100%;
+		    img{
+		    	min-width: 100%;
+		    	min-height: 100%;
+		    	object-fit: cover;
+		    }
+		}
+	}
+}
+
+
+@media(max-width:1024px){
+	.posts-productos .posts div[class^=producto-]{
+		flex: 0 0 50%;
+
+		&:nth-child(4n){
+			margin-right: 10px;
+		}
+
+		&:nth-child(2n){
+			margin-right: 0px;
+		}
+	}
+}
+
+@media(max-width:768px){
+	.filtros-productos {
+		background-color: transparent;
+		.container-custom{
+			margin: 0;
+		    padding: 0;
+		    width: 100%;
+		    max-width: 100%;
+			.all-selects{
+				flex-direction: column;
+				.container-select{
+					width: 60%;
+					&:nth-child(odd){
+						background-color: #ececec;
+					}
+					&:nth-child(even){
+						background-color: #e0e0e0;
+					}				
+				}
+			}
+		}
+	}
+	.posts-productos .posts div[class^=producto-]{
+		flex: 0 0 100%;
+		margin-right: 0px;
+
+		&:nth-child(4n){
+			margin-right: 0px;
+		}
+
+		&:nth-child(2n){
+			margin-right: 0px;
+		}
+	}
+}
+
+@media(max-width:480px){
+	.filtros-productos {
+		.container-custom{
+			.all-selects{
+				.container-select{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,132 @@
+/*generalidades*/
+
+.entry-container{
+  padding:15px;
+}
+
+/*Cabecera - titulo interiores */
+.cabecera-custom {
+  padding: 50px 0;
+  color: #fff;
+  background-color:$mainColor;
+  margin-bottom:30px;
+  background-size:cover;
+  .entry-title {
+    margin-top: 0;
+    line-height: 1.1;
+    font-size: $font_h1;
+    color:#fff;
+    text-align: center;
+
+  }
+}
+@media(max-width:991px){
+  .cabecera-custom{
+    padding:30px 0;
+
+  }
+}
+
+/*Sidebars */
+#secondary {
+  margin-top:30px;
+  padding-left:40px;
+  .panel {
+    box-shadow: none;
+    >.panel-heading{
+      text-transform: uppercase;
+      border-bottom: solid 1px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      color: $gris_oscuro;
+      background-color:transparent;
+      font-weight:bold;
+      padding:0 0 10px 0;
+      h3{
+        font-size: $font_size_big;
+        text-transform: uppercase;
+        margin:0;
+      }
+    }
+    ul{
+      padding:10px 0;
+    }
+  }
+}
+/*Formulario de busqueda*/
+.busqueda_resultado{
+  margin-bottom: 15px;
+}
+
+/*Paginacion */
+.pag-wrap{
+  clear:both;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  float: left;
+  .wp-pagenavi{
+    a:hover,  span.current{
+      background-color:$mainColor;
+      color:#fff;
+      border-color:$mainColor;
+      text-decoration: none;
+    }
+  }
+
+}
+
+/*Página de contacto*/
+.infowindow_custom{
+  max-width:300px;
+  p{
+  }
+}
+
+.contenido-contacto{
+  .datos_contacto{
+    i{
+      color:$mainColor;
+      margin-right:5px;
+
+    }
+  }
+}
+.formulario-contacto{
+  background-color:#F7F7F7;
+  .contacto_form_int{
+    max-width:600px;
+    padding:50px;
+  }
+}
+.datos_contacto_wrap{
+padding:0 0 30px 0;
+  text-align: center;
+}
+.icono_circulo{
+  color:$mainColor;
+  border:solid 1px $gris_oscuro;
+  font-size:1.7rem;
+  width:50px;
+  height:50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:5px;
+  border-radius:50%;
+  margin:0  auto 10px auto;
+}
+.datos_contacto_wrap{
+  flex-wrap:wrap;
+}
+@media(max-width:767px){
+  .fila_contacto{
+    .contenido-contacto{
+      min-height:300px;
+      order:2;
+    }
+  }
+  .datos_contacto{
+    margin:5px 0;
+  }
+}

@@ -1,0 +1,93 @@
+
+/*--------------------------------------------------------------
+404
+--------------------------------------------------------------*/
+
+
+.error404{
+  margin-bottom:30px
+}
+.error404 #page{
+  text-align: center;
+}
+.error .article{
+  width:100%
+}
+.error404 article header h1{
+  color:#000;
+  font-size:45px;
+  text-transform:uppercase;
+}
+.error404 article header h1 span{
+  color:$mainColor;
+  font-weight:bold;
+  font-family: $tipo_sec;
+}
+.error404 img{
+  margin: 0 auto
+}
+.error p{
+  color:#000;
+  font-size:16px;
+}
+.error404 article header p{
+  font-size:20px;
+  margin-bottom:0;
+}
+.error404 .page-content{
+  clear:both
+}
+.error404  .caja-busqueda input{
+  width:100%;
+  border-radius:0;
+  padding:11px 12px;
+  font-size: 14px;
+  color: #a4a4a4;
+  border: 1px solid #D8D8D8;
+  font-family: inherit;
+}
+.error404 .boton-buscar{
+  padding:0
+}
+.error404 .btn-azul:not(.btn-link):not(.btn-flat){
+  margin:0
+}
+.error404  .caja-busqueda{
+  padding:0
+}
+.error404 .boton-buscar input[type="submit"]{
+  width: 100%;
+  padding: 12px 30px;
+  border-radius: 0;
+  margin:0
+}
+.items_404 div:last-of-type img {
+  margin-top: 6px;
+}
+.items_404, .items_404 a{
+  color:#000;
+  text-align: center;
+  font-size:14px;
+}
+.items_404 img{
+  margin: 0 auto;
+  margin-bottom:10px;
+  display:block;
+}
+.items_404{
+  margin-top:30px;
+
+}
+#page.error{
+  float:none;
+  margin: 0 auto
+}
+.error404{
+  margin-top:30px;
+}
+@media(min-width:768px) {
+  .items_404 .bordegris {
+    border-right: solid 1px #acacac
+  }
+
+}

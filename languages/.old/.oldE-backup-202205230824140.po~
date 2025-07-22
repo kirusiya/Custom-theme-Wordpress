@@ -1,0 +1,256 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0-wpcom\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2014-09-11 00:43:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-05-20 08:46+0000\n"
+"Last-Translator: Desarrollador\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.1; wp-5.9.3"
+
+msgid " ® Todos los derechos reservados"
+msgstr "® Alle Rechte vorbehalten"
+
+msgid "<span>Piedra</span> <span>Natural</span>"
+msgstr "<span>Naturstein</span>"
+
+msgid "Acabado"
+msgstr "Oberflächen"
+
+msgid "Acabado:"
+msgstr "Oberflächen:"
+
+msgid "Acceso no permitido."
+msgstr "Zugriff verweigert."
+
+msgid "Acceso No Permitido. No tiene permiso para acceder a esta sección."
+msgstr ""
+"Zugriff verweigert. Sie sind nicht berechtigt, auf diesen Abschnitt "
+"zuzugreifen."
+
+msgid "Anterior"
+msgstr "Bisherige"
+
+msgid "Aplicación"
+msgstr "Anwendung"
+
+msgid "Aplicación:"
+msgstr "Anwendung:"
+
+msgid "Asistir"
+msgstr "Hilfe"
+
+msgid "Año"
+msgstr "Jahr"
+
+msgid "Buscar"
+msgstr "Suche"
+
+msgid "Color"
+msgstr "Farbe"
+
+msgid "Color principal:"
+msgstr "Hauptfarbe"
+
+msgid "Compartir artículo"
+msgstr "Artikel teilen"
+
+msgid "Contacta"
+msgstr "Kontakt"
+
+msgid "Contacto"
+msgstr "Kontakt"
+
+msgid "Contáctanos"
+msgstr "Kontaktiere uns"
+
+msgid "CUÁNDO: "
+msgstr "WANN:"
+
+msgid "Diseño"
+msgstr "Design"
+
+msgid "DÓNDE: "
+msgstr "WOHER:"
+
+msgid "Empresa constructora"
+msgstr ""
+
+msgid "Error <span>404</span>"
+msgstr "Fehler <span>404</span>"
+
+msgid "Espacio"
+msgstr "Räume"
+
+msgid "Espacios:"
+msgstr "Räume:"
+
+msgid "Etiquetas"
+msgstr ""
+
+msgid "Ficha técnica:"
+msgstr "Datenblatt:"
+
+msgid "Formatos:"
+msgstr "Formate:"
+
+msgid "Fotografías"
+msgstr ""
+
+msgid "Galería"
+msgstr "Galerie"
+
+msgid "Gama"
+msgstr "Kollektion"
+
+msgid "GAMA COMPLETA"
+msgstr "VOLLSTÄNDIGE PALETTE"
+
+msgid "Gama:"
+msgstr "Kollektion:"
+
+msgid "Gama: "
+msgstr "Kollektion:"
+
+msgid "Horario"
+msgstr "Plan"
+
+msgid "Imagen"
+msgstr "Bild"
+
+msgid "Inicio"
+msgstr "Heim"
+
+msgid "Intenta iniciar sesión primero."
+msgstr "Versuchen Sie zuerst, sich anzumelden"
+
+msgid "Intente buscarla de nuevo"
+msgstr "Versuchen Sie erneut, danach zu suchen"
+
+msgid "Interiorista"
+msgstr ""
+
+msgid "Introduce tu ciudad"
+msgstr "Stelle deine Stadt vor"
+
+msgid "La página que está buscando no existe"
+msgstr "Die von Ihnen gesuchte Seite existiert nicht mehr"
+
+msgid "Limpiar filtros"
+msgstr "Filter löschen"
+
+msgid "Lo sentimos, no hemos encontrada nada, prueba una nueva búsqueda."
+msgstr ""
+"Entschuldigung, wir haben nichts gefunden, versuchen Sie es mit einer neuen "
+"Suche."
+
+msgid "Localización"
+msgstr "Standort"
+
+msgid "Lugar"
+msgstr "Lage"
+
+msgid "Mapa Puntos de venta"
+msgstr "Kartenspeicher"
+
+msgid "Material"
+msgstr "Material"
+
+msgid ""
+"No existen productos con los filtros que has seleccionado.<br><br>¿Necesitas "
+"ayuda?"
+msgstr ""
+"Es gibt keine Produkte mit den von Ihnen ausgewählten Filtern.<br><br>"
+"Brauchen Sie Hilfe? KONTAKT"
+
+msgid "No hay FAQs en este momento."
+msgstr "Derzeit gibt es keine FAQs."
+
+msgid "Opciones:"
+msgstr "Optionen"
+
+msgid "Origen:"
+msgstr ""
+
+msgid "Pide presupuesto"
+msgstr "Angebot Anfordern"
+
+msgid "Premium"
+msgstr "Premium"
+
+msgid "Producto"
+msgstr "Produkt"
+
+msgid "Producto<br><b>utilizado</b>"
+msgstr "Produkt<br><b>verwendet</b>"
+
+msgid "Productos"
+msgstr "Produkte"
+
+msgid "productos"
+msgstr "produkte"
+
+msgid "Proyecto"
+msgstr "Projekt"
+
+msgid "Proyectos"
+msgstr "Projekte"
+
+msgid "proyectos"
+msgstr "projekte"
+
+msgid "Sin resultados para "
+msgstr "Keine Ergebnisse für"
+
+msgid "Stonepanel Sylvestre"
+msgstr "Stonepanel Sylvestre"
+
+msgid "Toda la gama completa de STONEPANEL<sup>®</sup>"
+msgstr "Vollständiges Sortiment von Stonepanel<sup>®</sup>"
+
+msgid "Ver aplicación"
+msgstr "Siehe Anwendung"
+
+msgid "Ver espacio"
+msgstr "Siehe Leerzeichen"
+
+msgid "Ver ficha"
+msgstr "Siehe Datei"
+
+msgid "Ver galería"
+msgstr "Siehe Galerie"
+
+msgid "Ver gama"
+msgstr "Siehe Kollectionen"
+
+msgid "Ver menos"
+msgstr "Weniger sehen"
+
+msgid "Ver más"
+msgstr "Mehr sehen"
+
+msgid "VER PRODUCTO"
+msgstr "SIEHE PRODUKT"
+
+msgid "Ver todas"
+msgstr "Alles sehen"
+
+msgid "Ver todo"
+msgstr "Alles sehen"
+
+msgid "Ver todo sobre"
+msgstr "Sehen Sie alles über"
+
+msgid "Volver"
+msgstr "Zurückkehren"
+
+msgid "Últimas noticias"
+msgstr "Neueste Nachrichten"

@@ -1,0 +1,58 @@
+.bloque-productos-home{
+	width: 100%;
+	img.fondo{
+		height: 100%;
+	    width: 100%;
+	    object-fit: cover;
+	    transition: 3s all;
+	}
+	.fake-a{
+		overflow: hidden;
+	    &:hover{
+	    	img.fondo{
+	    		transform: scale(1.5);
+	    	}
+	    }		
+	}
+	.dentro{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	    top: 0;
+		left: 0;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    a{
+	    	@include sm{
+	    		padding: 50px;
+	    	}
+	    }
+	}
+	.row{
+		column-gap: 20px;
+		.izq{
+			aspect-ratio: 1;
+			background-color: #eee;
+			position: relative;
+			@include lg{
+				aspect-ratio: 2;
+			}
+		}
+		.der{
+			display: flex;
+		    row-gap: 20px;
+		    flex-direction: column;
+			.arriba{
+				height: 100%;
+				background-color: red;
+				position: relative;
+			}
+			.abajo{
+				height: 100%;
+				background-color: blue;
+				position: relative;
+			}
+		}
+	}
+}

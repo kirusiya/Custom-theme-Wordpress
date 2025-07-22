@@ -1,0 +1,341 @@
+header#masthead{
+
+  .dropdown-toggle::after{
+    border: none;
+    background-image: url('../images/dropdown-arrow.svg');
+    width: 9px;
+    height: 5px;
+    vertical-align: 0.15em;
+  }
+
+  .navbar{
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+    flex-wrap: wrap;
+    padding: 0 !important;
+    transition: all 0.3s;
+    @include lg{
+      height: 60px;
+    }
+
+    .topbar{
+      width: 100%;
+      background-color: #F0E8EC;
+      @include lg{
+        display: none;
+      }
+      ul{
+        li{
+          margin: 0;
+          a{
+            color: #6C1D45;
+            font-size: 16px;
+            line-height: 19px;
+            font-weight: 400;
+            padding-right: 20px;
+            padding-left: 0;
+            &:hover{
+              color: #000;
+            }
+          }
+        }
+      }
+    }
+
+    .mainbar{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .navbar-brand{
+        padding: 10px 20px;
+        align-self: center;
+        margin: 0;
+        @include sm{
+          padding: 0 15px;
+          max-width: 200px;
+        }
+        img{
+          &.img1{
+            display: none;
+          }
+        }
+      }
+
+      .navbar-collapse{
+        @include lg{
+          position: absolute;
+          background-color: #fff;
+          width: 100%;
+          height: 0;
+          top: 60px;
+          &.show{
+            height: calc(100vh - 60px);
+          }
+        }
+        ul{
+          @include lg{
+            height: calc(100vh - 60px);
+            padding-top: 30px;
+            @include sm{
+              height: calc(100vh - 100px);
+              padding-top: 10px;
+              overflow: auto;
+            }
+          }
+          li{
+            @include lg{
+              border-bottom: 1px solid #F0E8EC;
+              padding-top: 5px;
+              padding-bottom: 5px;
+              a.dropdown-toggle::after{
+                position: absolute;
+                right: 15px;
+                top: 19px;
+              }
+            }
+            a{
+              color: #6F1D46;
+              font-size: 18px;
+              line-height: 22px;
+              font-weight: 400;
+              padding-left: 13px;
+              padding-right: 13px;
+              &:hover{
+                color: #000;
+              }
+              @include xl{
+                font-size: 17px;
+                padding-left: 10px;
+                padding-right: 10px;
+              }
+            }
+            .dropdown-menu{
+              min-width: 16rem;
+              box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+              border: none;
+              border-radius: 0;
+              @include lg{
+                position: relative !important;
+                height: inherit;
+                top: 0;
+                box-shadow: none;
+                border: 0;
+                padding-top: 0;
+                li{
+                  border-bottom: none;
+                  padding-top: 0;
+                  padding-bottom: 0;
+                  a{
+                    font-size: 90%;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                  }
+                }
+              }
+              a{
+                color: #6C1D45;
+                font-size: 18px;
+                line-height: 19px;
+                font-weight: 400;
+                &:hover{
+                  background-color: #F0E8EC;
+                  color: #000 !important;
+                }
+              }
+            }
+          }
+        }
+        .idiomas-sm{
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 40px;
+          line-height: 40px;
+          background-color: #F0E8EC;
+        }
+      }
+
+      .col-der{
+        display: flex;
+        @include lg{
+          padding-right: 60px;
+        }
+        @include sm{
+          padding-right: 75px; 
+        }
+        .header-search-form{
+          img{
+            cursor: pointer;
+            &:hover{
+              opacity: .75;
+            }
+          }
+        }
+        .idiomas.dropdown{
+          margin-left: 20px;
+          margin-right: 20px;
+          line-height: 27px;
+          >a{
+            color: #6C1D45;
+            font-size: 18px;
+            line-height: 19px;
+            font-weight: 400;
+            &:hover{
+              color: #000 !important;
+            }
+          }
+          .dropdown-menu{
+            right: 0;
+            left: inherit;
+            box-shadow: 0px 3px 6px rgba(0,0,0,.16);
+            border: none;
+            border-radius: 0;
+            .dropdown-item{
+              color: #6C1D45;
+              font-size: 18px;
+              line-height: 19px;
+              font-weight: 400;
+              &:hover{
+                background-color: #F0E8EC;
+                color: #000 !important;
+              }
+            }
+          }
+        }
+        .navbar-toggler{
+          background-image: none;
+          align-self: flex-end;
+          position: absolute;
+          right: 10px;
+          top: 15px;
+        }
+      }
+
+    } //.mainbar
+
+  } //.navbar
+
+  #searchForm{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: rgba(255,255,255,.95);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    #iconSearchClose{
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 40px;
+      cursor: pointer;
+      transition: .4s all;
+      &:hover{
+        transform: scale(0.7);
+      }
+    }
+    .md-form{
+      margin-bottom: 0;
+      margin-top: 0;
+      width: 500px;
+      max-width: 90%;
+      input{
+        margin: 0;
+        padding: 0 0.5rem;
+        height: 50px;
+        &:focus{
+          box-shadow: none;
+        }
+      }
+      .btn.btn_lupa{
+        height: 50px;
+        border-radius: 0;
+        margin: 0;
+      }
+    }
+  }
+
+}
+
+/* Animacion hamburguesa */
+.animated-icon{
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+.animated-icon span {
+  background: #000;
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+.animated-icon span:nth-child(1) {
+  top: 0px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+.animated-icon span:nth-child(2) {
+  top: 9px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+.animated-icon span:nth-child(3) {
+  top: 18px;
+  -webkit-transform-origin: left center;
+  -moz-transform-origin: left center;
+  -o-transform-origin: left center;
+  transform-origin: left center;
+}
+.animated-icon.open span:nth-child(1) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  top: 0px;
+  left: 8px;
+}
+.animated-icon.open span:nth-child(2) {
+  width: 0%;
+  opacity: 0;
+}
+.animated-icon.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  top: 21px;
+  left: 8px;
+}

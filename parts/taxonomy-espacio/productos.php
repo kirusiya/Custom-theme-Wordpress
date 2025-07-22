@@ -1,0 +1,65 @@
+<?php
+/**
+ * Página de espacio: productos.
+ *
+ * @package materialwp
+ */
+
+$prod_slug = get_option( 'cupa_cpt_productos' );
+if ( ! $prod_slug ) {
+	$prod_slug = 'productos';
+}
+?>
+
+<div class="bloque bloque-taxonomy-gama posts-productos taxonomy-gama-productos">
+	<div class="container-custom">
+		<div class="posts">
+
+		<?php
+		$query = new WP_Query(
+			array(
+				'post_type'      => 'productos',
+				'post_status'    => 'publish',
+				'orderby'        => 'rand',
+				'posts_per_page' => 3,
+				'tax_query'      => array( //phpcs:ignore
+					array(
+						'taxonomy' => 'espacio',
+						'field'    => 'slug',
+						'terms'    => $currentTaxSlug, //phpcs:ignore
+					),
+				),
+			)
+		);
+
+		$n = 1;
+
+		if ( $query ) {
+
+			while ( $query->have_posts() ) {
+				$query->the_post();
+				$enlace_producto = get_permalink();
+				$imagen_producto = get_field( 'imagen_para_busqueda_de_productos', get_the_ID() );
+				$titulo_producto = get_the_title();
+				$titulo_producto = str_replace( '®', '<sup>®</sup>', $titulo_producto );
+				include get_stylesheet_directory() . '/parts/loop/item-producto-for-archive.php';
+				$n++;
+			}
+		}
+
+		wp_reset_postdata();
+
+		?>
+
+			<div class="producto-last">				
+				<div class="boton-cupa-granate">
+					<?php $enlace_gama = '/' . esc_html( $prod_slug ) . '/?tax=' . esc_html( $currentTaxName ) . '&term_id=' . esc_html( $currentTaxID ); //phpcs:ignore ?>
+					<a href="<?php echo esc_url( $enlace_gama ); ?>">
+						<?php esc_html_e( 'GAMA COMPLETA', 'materialwp' ); ?>
+						<span class="arrow-btn"></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

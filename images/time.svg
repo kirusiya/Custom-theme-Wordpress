@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.2" height="19.2" viewBox="0 0 19.2 19.2">
+  <g id="time" transform="translate(0.1 0.1)">
+    <path id="Trazado_20245" data-name="Trazado 20245" d="M9.5,0A9.5,9.5,0,1,0,19,9.5,9.511,9.511,0,0,0,9.5,0Zm0,18.367A8.867,8.867,0,1,1,18.367,9.5,8.877,8.877,0,0,1,9.5,18.367Z" fill="#6c1d45" stroke="#6c1d45" stroke-width="0.2"/>
+    <path id="Trazado_20246" data-name="Trazado 20246" d="M18.383,6a.317.317,0,0,0-.317.317V13.6h-4.75a.317.317,0,1,0,0,.633h5.067a.317.317,0,0,0,.317-.317v-7.6A.317.317,0,0,0,18.383,6Z" transform="translate(-8.883 -4.1)" fill="#6c1d45" stroke="#6c1d45" stroke-width="0.2"/>
+  </g>
+</svg>

@@ -1,0 +1,301 @@
+.bloque-mapa-puntos-de-venta{
+	width: 100%;
+	padding: 50px 0;
+	margin-top: 150px;
+	@include xl{
+		margin-top: 0;
+	}
+
+	.container-texto{
+		max-width: 100%;
+		padding-bottom: 60px;
+	}
+
+	.row{
+
+		.der{
+			.der-content{
+				max-width: 480px;
+			    margin-left: auto;
+			    padding-right: 100px;
+			}
+		}
+
+		.izq{
+			padding: 0;
+			position: relative;
+			overflow: hidden;
+
+			.mapa{
+				position: relative;
+				margin-left: -150px;
+
+				.mapa-desktop{
+					max-width: 1240px;
+				}
+
+				.mapa-mobile{
+					display: none;
+				}				
+
+				.markers{
+
+					div[class^=marker-]{
+						width: 30px;
+						height: 35px;
+						position: absolute;
+						cursor: pointer;
+						background-repeat: no-repeat;
+						background-position: center;
+						background-size: 100%;
+						background-image: url(../images/marker_normal.png);					
+
+						&.active{
+							background-image: url(../images/marker_active.png);
+						}
+					}
+				}
+			}
+
+			.btn-movil-puntos{
+				display: none;
+			}
+
+			.puntos-de-venta{
+				display: flex;
+			    align-items: center;
+			    width: 410px;
+			    padding: 0;
+			    background-color: #F8F8F8;
+			    box-shadow: 0px 15px 20px 0px #d2d2d2;
+			    position: absolute;
+			    top: -30px;
+			    right: 100px;
+
+			    &.quieto{
+			    	top: 50px !important;
+			    }
+
+				div[class^=punto-]{
+					display: none;
+			    	padding: 40px;
+			    	position: relative;
+			    	width: 100%;
+
+				    .cerrarPunto{
+				    	position: absolute;
+				    	top: 10px;
+				    	right: 10px;
+				    	cursor: pointer;
+				    	transition: .3s all;
+				    	width: 20px;
+				    	&:hover{
+				    		transform: scale(1.3);
+				    	}
+				    }
+
+					.logo{
+						padding-bottom: 20px;
+
+						.nombre-localizacion{
+							font-size: 20px;
+						    text-transform: uppercase;
+						    color: $mainColor;
+						    font-weight: 500;
+						}
+					}
+
+					.direccion{
+						overflow: hidden;
+						padding-bottom: 20px;
+						position: relative;
+
+						p{
+							margin-bottom: 0;
+							padding-left: 35px;
+							float: left;
+							font-size: 16px;
+    						font-weight: 300;
+						}
+
+						&:before{
+							content: url(../images/direccion.png);
+							float: left;
+							position: absolute;
+    						top: 5px;
+    						left: 0;
+						}
+					}
+
+					.email{
+						overflow: hidden;
+						padding-bottom: 20px;
+						position: relative;
+
+						p{
+							margin-bottom: 0;
+							padding-left: 35px;
+							float: left;
+							font-size: 18px;
+    						font-weight: 300;
+						}
+
+						&:before{
+							content: url(../images/email-2.png);
+							float: left;
+							position: absolute;
+    						top: 5px;
+    						left: 0;
+						}
+					}
+
+					.telefono{
+						overflow: hidden;
+						padding-bottom: 20px;
+						position: relative;
+
+						p{
+							margin-bottom: 0;
+							padding-left: 35px;
+							float: left;
+							font-size: 18px;
+    						font-weight: 300;
+						}
+
+						&:before{
+							content: url(../images/telefono.png);
+							float: left;
+							position: absolute;
+    						top: 5px;
+    						left: 0;
+						}
+					}
+
+					.fax{
+						overflow: hidden;
+						padding-bottom: 20px;
+						position: relative;
+
+						p{
+							margin-bottom: 0;
+							padding-left: 35px;
+							float: left;
+							font-size: 18px;
+    						font-weight: 300;
+						}
+
+						&:before{
+							content: url(../images/fax.png);
+							float: left;
+							position: absolute;
+    						top: 5px;
+    						left: 0;
+						}
+					}
+
+					.boton-cupa-granate{
+						padding-bottom: 0;
+					}
+				}
+			}
+		}
+	}	
+}
+
+
+@media(max-width:1440px){
+	.bloque-mapa-puntos-de-venta .row .der .puntos-de-venta{
+		left: 30px;
+	}
+}
+
+@media(max-width:1250px){
+	.bloque-mapa-puntos-de-venta{
+		.row{
+			.izq{
+				flex: 0 0 100%;
+    			max-width: 100%;
+	    		overflow: inherit;
+				.mapa{
+					max-width: 375px;
+	    			margin: 0 auto;
+	    			overflow: hidden;
+					.mapa-desktop{
+						display: none;
+					}
+					.mapa-mobile{
+						display: inline;
+					}
+				}
+				.btn-movil-puntos{
+					display: block;
+				    position: absolute;
+				    top: 50%;
+				    left: 50%;
+				    transform: translate(-50%, -50%);
+				    width: 100%;
+    				text-align: center;
+				}
+	    		.puntos-de-venta{
+					position: relative;
+					left: inherit;
+					margin: 0 auto;
+					right: inherit;
+				}
+				&.sin-puntos{
+					.markers,
+	    			.puntos-de-venta{
+						display: none;
+					}
+				}
+			}
+			.der{
+				.der-content{
+					max-width: 930px;
+				    margin-left: auto;
+				    padding-right: 20px;
+				    padding-left: 20px;
+				    margin-right: auto;
+				}
+	    	}
+		}
+	}	
+}
+
+@media(max-width:991px){
+	.bloque-mapa-puntos-de-venta .container-texto .titulo{
+		font-size: 40px;
+	}
+}
+
+@media(max-width:768px){
+	.bloque-mapa-puntos-de-venta{
+		height: auto;
+		.row{
+			.izq{
+	    		.puntos-de-venta{
+			    	max-width: 340px;
+    				margin: 0 auto;
+    				.direccion{
+    					p{
+    						font-size: 14px !important;
+    					}
+    				}
+    				.email{
+    					a{
+    						font-size: 16px !important;
+    					}
+    				}
+    				.telefono{
+    					a{
+    						font-size: 18px !important;
+    					}
+    				}
+    				.fax{
+    					font-size: 18px !important;
+    				}
+				}
+	    	}
+		}
+	}	
+}
