@@ -289,12 +289,6 @@ Este proyecto está licenciado bajo la **Licencia MIT** - ver el archivo LICENSE
 - ❌ Sin garantía
 - ❌ Sin responsabilidad del autor
 
-## 👥 Equipo de Desarrollo
-
-### Desarrollador Principal
-
-- **Ing. Edward Avalos** - *Arquitecto y Desarrollador Principal* - [GitHub](https://github.com/kirusiya/) | [LinkedIn](https://www.linkedin.com/in/edward-avalos-severiche/)
-
 ## 🙏 Agradecimientos y Créditos
 
 - **WordPress Community** - Por la plataforma base
@@ -308,8 +302,9 @@ Este proyecto está licenciado bajo la **Licencia MIT** - ver el archivo LICENSE
 
 ### Canales de Soporte
 
+- **Ing. Edward Avalos** - *Full Stack Developer y Desarrollador Principal* - [GitHub](https://github.com/kirusiya/) | [LinkedIn](https://www.linkedin.com/in/edward-avalos-severiche/)
 - 📧 **Email**: edward@ajamba.org
-- 📱 **WhatsApp Business**: +591 61781119
+- 📱 **WhatsApp Business**: +591 61781119 | [Whatsapp](https://wa.me/59161781119)
 
 ### Horarios de Soporte
 
